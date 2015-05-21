@@ -13,7 +13,9 @@
 <script>
 $(document).ready( function() {
   $('#navbar').load("navbar.html");
-  $('#page-data').load("home.html");
+  $('#page-data').load("home.html", function(){
+      $('#page-bottom').text('"<div class="row"><div class="col-lg-12">Founded in 2012. 3D4E at UCLA. Tinker. Make. Print.</div></div>"');
+  });
 });
 </script>
 
@@ -26,13 +28,6 @@ $(document).ready( function() {
 <div id="page-data" style="background-color: #9999ff; height: 100%"></div>
 
 <div id="page-bottom" class="container" style="background-color: #ffffcc; height: 100%">
-    <div class="row">
-        <div class="col-lg-12">Founded in 2012. 3D4E at UCLA. Tinker. Make. Print.</div>
-    </div>
 </div>
-
 </body>
 </html>
-
-</body>
-
