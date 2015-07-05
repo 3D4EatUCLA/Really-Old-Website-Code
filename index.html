@@ -13,7 +13,7 @@
 <script>
 $(document).ready( function() {
   $('#page-data').load("home.html", function(){
-      $('#catchphrase').text('Founded in 2012. 3D4E at UCLA. Tinker. Make. Print.');
+      $('#catchphrase').text();
   });
 });
 </script>
@@ -56,9 +56,33 @@ $(document).ready( function() {
     <h3><br></h3>
 </div>
 <div id="page-data" style="background-color: #9999ff; height: 100%"></div>
+<link rel="stylesheet" href="CSS/Bootstrap.css" type="text/css" />
+<link rel="stylesheet" href="CSS/customBootstrap.css" type="text/css" />
 
+<div class="container">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-sm-12"><img src="images/cover-photo.jpg" alt="cover-photo.jpg" class="img-responsive" /></div>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <div class="row"> 
+            <div class="col-sm-4"><img src="images/small-logo.png" class="img-rounded" style="max-height: 280px" alt="3D3E Logo"/></div>
+            <div class="col-sm-8">
+                <h2>3D4E at UCLA</h2>
+                3D4E (3D For Everyone) is an intercollegiate network of people who are 3D printing and rapid-prototyping enthusiasts. There are currently four chapters in the network, founded by students at UCLA, USC, LMU, and SDSU.<br><br>
+                In Fall 2014, 3D4E at UCLA co-hosted a 3D printing exhibition with Young's Research Library to demonstrate the capabilities of 3D printers. The event attracted the interest of more than 200 people. In Spring 2015, we have secured a sponsorship agreement with 3D printer manufacturer XYZPrinting Inc.. StartUP UCLA and the Blackstone LaunchPad have also formed a partnership with our club to collaborate on workshops and event.<br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><h3>Cras lacus urna</h3>Ut feugiat lorem id leo rhoncus fringilla. Ut scelerisque scelerisque lectus quis laoreet. Aliquam eget vestibulum lacus, vel vestibulum ex. Nulla blandit tempus ante sit amet iaculis. Proin sem amet.</div>
+            <div class="col-sm-4"><h3>Proin nec</h3>Nulla venenatis luctus erat, vitae rhoncus nulla pharetra nec. Sed feugiat ut tellus vitae vehicula. Sed lobortis, risus sed semper pulvinar, ipsum tellus pharetra tortor, sit amet lobortis est metus.</div>
+            <div class="col-sm-4"><h3>Quisque in purus</h3>Duis vitae lacus aliquet, blandit ligula non, malesuada eros. Nunc imperdiet varius tortor. Phasellus semper mi tincidunt elit lacinia, ut suscipit nisi viverra. Nam molestie a mi sit amet massa nunc.</div>
+        </div>
+     </div>
+</div>
 <div id="page-bottom" class="container-fluid" style="background-color: #ffffcc; height: 100%">
-    <div class="row"><div id="catchphrase" class="col-lg-12 text-center"></div></div>
+    <div class="row"><div id="catchphrase" class="col-lg-12 text-center">'Founded in 2012. 3D4E at UCLA. Tinker. Make. Print.'</div></div>
 </div>
 </body>
 </html>
