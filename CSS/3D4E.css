@@ -42,3 +42,7 @@ html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container
     border-bottom: thick double #000000;
     width: 100%;
 }
+
+.page-scroll {
+    cursor: pointer;
+}
