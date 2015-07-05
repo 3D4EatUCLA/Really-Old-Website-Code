@@ -1,34 +1,260 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="icon" type="image/x-icon" href="images/small-logo.png">
-<link rel="stylesheet" href="CSS/Bootstrap.css" type="text/css" />
-<link rel="stylesheet" href="CSS/customBootstrap.css" type="text/css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<title>3D4E at UCLA</title>
-</head>
-<body>
+  <head>
+    <link rel="icon" type="image/x-icon" href="images/small-logo.png">
+    <link rel="stylesheet" href="plugins/slider-pro-master/slider-pro.min.css"/>
+    <link rel="stylesheet" href="CSS/Bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="CSS/3D4E.css" type="text/css" />
+    <title>3D4E at UCLA</title>
+  </head>
+  <body>
 
-<script>
-$(document).ready( function() {
-  $('#navbar').load("navbar.html");
-  $('#page-data').load("home.html", function(){
-      $('#catchphrase').text('Founded in 2012. 3D4E at UCLA. Tinker. Make. Print.');
-  });
-});
-</script>
+    <nav class="navbar navbar-fixed-top" id="navbar">
+      <div class="container-fluid"> 
+	<div class="navbar-header" style="cursor:pointer">
+	  <button data-toggle="collapse" data-target="#myNavbar" class="navbar-toggle" data-delay="0" type="button"></button>
+	</div> 
+	<div id="myNavbar" style="cursor:pointer" class="collapse navbar-collapse"> 
+	  <ul class="nav navbar-nav"> 
+	    <li class="dropdown">
+	      <a class="dropdown-toggle page-scroll" href="#section-1" style="cursor:pointer;">About</a>
+	    </li>
+	    <li class="dropdown">
+	      <a class="dropdown-toggle page-scroll" href="#section-2" style="cursor:pointer;">Projects</a>
+	    </li>
+	    <li>
+	      <a class="dropdown-toggle page-scroll" href="#section-3" style="cursor:pointer;">Executive Board</a>
+	    </li>
+	    <li class="dropdown">
+	      <a class="dropdown-toggle"  data-toggle="dropdown" style="cursor:pointer;">Other chapters<span class="caret"></span></a>
+	      <ul class="dropdown-menu">
+		<li><a href="http://www.usc3d4e.com/" target="_blank">USC</a></li> 
+		<li><a href="http://www.3d4esdsu.com/" target="_blank">SDSU</a></li> 
+		<li><a href="#">LMU</a></li> 
+	      </ul>
+	    </li>
 
-<nav class="navbar navbar-fixed-top" id="navbar">
-</nav>
+	  </ul> 
+	  <ul class="nav navbar-nav navbar-right"> 
+	    <li><a><span class="glyphicon glyphicon-envelope"></span> Contact</a></li> 
+	  </ul> 
+	</div> 
+      </div> 
 
-<div class="container">
-    <h3><br></h3>
-</div>
-<div id="page-data" style="background-color: #9999ff; height: 100%"></div>
+    </nav>
 
-<div id="page-bottom" class="container-fluid" style="background-color: #ffffcc; height: 100%">
-    <div class="row"><div id="catchphrase" class="col-lg-12 text-center"></div></div>
-</div>
-</body>
+    <div id="dummy">a</div>
+    
+    <div class="slider-pro" id="my-slider">
+      <div class="sp-slides">
+	<div class="sp-slide">
+	  <img class="sp-image" src="../src/css/images/blank.gif"
+	       data-src="images/3D4E/index/IMG_1589.jpg"/>
+
+	  <p class="sp-layer sp-white sp-padding"
+	     data-horizontal="50" data-vertical="50"
+	     data-show-transition="left" data-hide-transition="up" data-show-delay="400" data-hide-delay="200">
+	    Lorem ipsum
+	  </p>
+
+	  <p class="sp-layer sp-black sp-padding hide-small-screen"
+	     data-horizontal="180" data-vertical="50"
+	     data-show-transition="left" data-hide-transition="up" data-show-delay="600" data-hide-delay="100">
+	    dolor sit amet
+	  </p>
+
+	  <p class="sp-layer sp-white sp-padding hide-medium-screen"
+	     data-horizontal="315" data-vertical="50"
+	     data-show-transition="left" data-hide-transition="up" data-show-delay="800">
+	    consectetur adipisicing elit.
+	  </p>
+	</div>
+
+	<div class="sp-slide">
+	  <img class="sp-image" src="../src/css/images/blank.gif"
+	       data-src="images/3D4E/index/IMG_1600.jpg"/>
+
+	  <h3 class="sp-layer sp-black sp-padding" 
+	      data-horizontal="40" data-vertical="10%" 
+	      data-show-transition="left" data-hide-transition="left">
+	    Lorem ipsum dolor sit amet
+	  </h3>
+
+	  <p class="sp-layer sp-white sp-padding hide-medium-screen" 
+	     data-horizontal="40" data-vertical="22%" 
+	     data-show-transition="left" data-show-delay="200" data-hide-transition="left" data-hide-delay="200">
+	    consectetur adipisicing elit
+	  </p>
+
+	  <p class="sp-layer sp-black sp-padding hide-small-screen" 
+	     data-horizontal="40" data-vertical="34%" data-width="350" 
+	     data-show-transition="left" data-show-delay="400" data-hide-transition="left" data-hide-delay="500">
+	    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	  </p>
+	</div>
+
+	<div class="sp-slide">
+	  <img class="sp-image" src="../src/css/images/blank.gif"
+	       data-src="images/3D4E/index/IMG_1601.jpg"/>
+
+	  <p class="sp-layer sp-white sp-padding" 
+	     data-position="centerCenter" data-vertical="-50" 
+	     data-show-transition="right" data-hide-transition="left" data-show-delay="500" >
+	    Lorem ipsum dolor sit amet
+	  </p>
+
+	  <p class="sp-layer sp-black sp-padding hide-small-screen" 
+	     data-position="centerCenter" data-vertical="50" 
+	     data-show-transition="left" data-show-delay="700" data-hide-transition="right" data-hide-delay="200">
+	    consectetur adipisicing elit
+	  </p>
+	</div>
+
+	<div class="sp-slide">
+	  <img class="sp-image" src="../src/css/images/blank.gif"
+	       data-src="images/3D4E/index/IMG_2301.jpg"/>
+
+	  <p class="sp-layer sp-black sp-padding" 
+	     data-position="bottomLeft"
+	     data-show-transition="up" data-hide-transition="down">
+	    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+	  </p>
+	</div>
+
+	<div class="sp-slide">
+	  <img class="sp-image" src="../src/css/images/blank.gif"
+	       data-src="images/3D4E/index/UCLA-car.jpg"/>
+
+	  <p class="sp-layer sp-white sp-padding" 
+	     data-vertical="10" data-horizontal="2%" data-width="96%" 
+	     data-show-transition="down" data-show-delay="400" data-hide-transition="up">
+	    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+	  </p>
+	</div>
+
+	<div class="sp-slide">
+	  <img class="sp-image" src="../src/css/images/blank.gif"
+	       data-src="images/3D4E/index/exploratory1.jpg"/>
+
+	  <p class="sp-layer sp-white sp-padding" 
+	     data-horizontal="10" data-vertical="10" data-width="35%">
+	    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+	  </p>
+	</div>
+
+	<div class="sp-slide">
+	  <img class="sp-image" src="../src/css/images/blank.gif"
+	       data-src="images/3D4E/index/exploratory2.jpg"/>
+
+	  <p class="sp-layer sp-black sp-padding" 
+	     data-position="bottomLeft" data-vertical="10" data-horizontal="2%" data-width="96%" 
+	     data-show-transition="up" data-show-delay="400" data-hide-transition="down">
+	    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+	  </p>
+	</div>
+
+	<div class="sp-slide">
+	  <img class="sp-image" src="../src/css/images/blank.gif"
+	       data-src="images/3D4E/index/exploratory3.jpg"/>
+	</div>
+
+	<div class="sp-slide">
+	  <img class="sp-image" src="../src/css/images/blank.gif"
+	       data-src="images/3D4E/index/the-competition.jpg"/>
+
+	  <p class="sp-layer sp-black sp-padding" 
+	     data-position="bottomLeft" data-horizontal="50" data-vertical="100"
+	     data-show-transition="down" data-show-delay="500" data-hide-transition="up">
+	    Lorem ipsum dolor sit amet
+	  </p>
+
+	  <p class="sp-layer sp-white sp-padding hide-small-screen" 
+	     data-position="bottomLeft" data-horizontal="50" data-vertical="50"
+	     data-show-transition="up" data-show-delay="500" data-hide-transition="down">
+	    consectetur adipisicing elit <span class="hide-medium-screen">, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+	  </p>
+	</div>
+      </div>
+    </div>
+    
+    <div class="container-fluid">
+      <div class="container-body" id="section-1">
+	<div class="row"> 
+	  <div class="col-sm-4"><img src="images/small-logo.png" class="img-rounded img-responsive" style="max-height: 280px" alt="3D3E Logo"/></div>
+	  <div class="col-sm-8">
+	    <h2>3D4E at UCLA</h2>
+	    3D4E (3D For Everyone) is an intercollegiate network of people who are 3D printing and rapid-prototyping enthusiasts. There are currently four chapters in the network, founded by students at UCLA, USC, LMU, and SDSU.<br><br>
+	    In Fall 2014, 3D4E at UCLA co-hosted a 3D printing exhibition with Young's Research Library to demonstrate the capabilities of 3D printers. The event attracted the interest of more than 200 people. In Spring 2015, we have secured a sponsorship agreement with 3D printer manufacturer XYZPrinting Inc.. StartUP UCLA and the Blackstone LaunchPad have also formed a partnership with our club to collaborate on workshops and event.<br>
+	  </div>
+	</div>
+      </div>
+
+      <div class="container-body" id="section-2">
+	<div class="row">
+	  <div class="col-sm-4"><h3>Cras lacus urna</h3>Ut feugiat lorem id leo rhoncus fringilla. Ut scelerisque scelerisque lectus quis laoreet. Aliquam eget vestibulum lacus, vel vestibulum ex. Nulla blandit tempus ante sit amet iaculis. Proin sem amet.</div>
+	  <div class="col-sm-4"><h3>Proin nec</h3>Nulla venenatis luctus erat, vitae rhoncus nulla pharetra nec. Sed feugiat ut tellus vitae vehicula. Sed lobortis, risus sed semper pulvinar, ipsum tellus pharetra tortor, sit amet lobortis est metus.</div>
+	  <div class="col-sm-4"><h3>Quisque in purus</h3>Duis vitae lacus aliquet, blandit ligula non, malesuada eros. Nunc imperdiet varius tortor. Phasellus semper mi tincidunt elit lacinia, ut suscipit nisi viverra. Nam molestie a mi sit amet massa nunc.</div>
+	</div>
+      </div>
+      <div class="container-body" id="section-3">
+	<div class="row">
+	  <div class="col-sm-6">
+	    <img src="images/128x128.png" class="img-responsive img-profile" alt="profile picture"/>
+	    <h3>Name</h3>
+	    <h4>Position</h4>
+	    Pellentesque malesuada porttitor arcu turpis duis.
+	  </div>
+	  <div class="col-sm-6">
+	    <img src="images/128x128.png" class="img-responsive img-profile" alt="profile picture"/>
+	    <h3>Name</h3>
+	    <h4>Position</h4>
+	    Pellentesque malesuada porttitor arcu turpis duis.
+	  </div>
+	</div>
+	<br>
+	<div class="row">
+	  <div class="col-sm-6">
+	    <img src="images/128x128.png" class="img-responsive img-profile" alt="profile picture"/>
+	    <h3>Name</h3>
+	    <h4>Position</h4>
+	    Pellentesque malesuada porttitor arcu turpis duis.
+	  </div>
+	  <div class="col-sm-6">
+	    <img src="images/128x128.png" class="img-responsive img-profile" alt="profile picture"/>
+	    <h3>Name</h3>
+	    <h4>Position</h4>
+	    Pellentesque malesuada porttitor arcu turpis duis.
+	  </div>
+	</div>
+      </div>
+    </div>
+
+    <img class="img-banner" src="images/competition-group.jpg" />
+
+    <div id="page-bottom" class="container-fluid" style="background-color: #ffffcc;">
+      <div class="row"><div id="catchphrase" class="col-lg-12 text-center">Founded in 2012. 3D4E at UCLA. Tinker. Make. Print.</div></div>
+    </div>
+
+    <!-- Javascripts Core
+==============================
+    <!-- placed at end so pages will load faster -->
+
+    <!-- jQuery v1.11.1 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- jQuery Easing v1.3 -->
+    <script type="text/javascript" src="js/jquery.easing.js"></script>
+
+    <!-- Bootstrap v3.3.4 -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <script src="plugins/slider-pro-master/jquery.sliderPro.min.js"></script>
+
+    <!-- Custom Javascript -->
+    <script type="text/javascript" src="js/3D4E.js"></script>
+
+    <script>
+      initialize();
+    </script>
+  </body>
 </html>

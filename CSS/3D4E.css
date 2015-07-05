@@ -1,0 +1,44 @@
+html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container-fluid>.navbar-header{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.jumbotron {
+    margin-bottom:0px;
+}
+
+.navbar, .navbar a, .dropdown-menu>li>a{
+    background-color: #93d3eb;
+    color: #0000cc;
+    min-height: 0;
+}
+
+.navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .dropdown-menu>li>a:hover{
+    background-color: inherit;
+    color: #000033;
+}
+
+.container-body {
+    margin: 150px 0 50px 0;
+    padding-top: 50px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    background-color: #93d3eb;
+}
+
+.img-profile {
+    float:left;
+    padding:10px;
+}
+
+.img-banner {
+    border-top: thick double #000000;
+    border-bottom: thick double #000000;
+    width: 100%;
+}

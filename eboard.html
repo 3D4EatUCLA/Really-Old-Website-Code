@@ -1,20 +1,59 @@
-<link rel="stylesheet" href="CSS/Bootstrap.css" type="text/css" />
-<link rel="stylesheet" href="CSS/customBootstrap.css" type="text/css" />
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="images/small-logo.png">
+    <link rel="stylesheet" href="CSS/Bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="CSS/customBootstrap.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <title>3D4E at UCLA</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-fixed-top" id="navbar">
+    </nav>
 
-<div class="container">
-    <div class="jumbotron">
-        <div class="row bg-primary">
-            <div class="col-sm-2"><img src="images/128x128.png" class="img-responsive" alt="profile picture" /></div>
-            <div class="col-sm-4"><h3>Name</h3>Pellentesque malesuada porttitor arcu turpis duis.</div>
-            <div class="col-sm-2"><img src="images/128x128.png" class="img-responsive" alt="profile picture" /></div>
-            <div class="col-sm-4"><h3>Name</h3>Nullam luctus massa sit amet ullamcorper volutpat.</div>
-        </div>
-        <br>
-        <div class="row bg-primary">
-            <div class="col-sm-2"><img src="images/128x128.png" class="img-responsive" alt="profile picture" /></div>
-            <div class="col-sm-4"><h3>Name</h3>Nam euismod nisl et faucibus tempor. Sed volutpat.</div>
-            <div class="col-sm-2"><img src="images/128x128.png" class="img-responsive" alt="profile picture" /></div>
-            <div class="col-sm-4"><h3>Name</h3>Proin non convallis ante. In tempor vehicula amet.</div>
-        </div>
+    <div class="container">
+      <div class="jumbotron">
+	<div class="row">
+	  <div class="col-sm-2">
+	    <img src="images/128x128.png" class="img-responsive" alt="profile picture" />
+	  </div>
+	  <div class="col-sm-4">
+	    <h3>Name</h3>
+	    Pellentesque malesuada porttitor arcu turpis duis.
+	  </div>
+	  <div class="col-sm-2">
+	    <img src="images/128x128.png" class="img-responsive" alt="profile picture" />
+	  </div>
+	  <div class="col-sm-4
+	       "><h3>Name</h3>
+	    Nullam luctus massa sit amet ullamcorper volutpat.
+	  </div>
+	</div>
+	<br>
+	<div class="row">
+	  <div class="col-sm-2">
+	    <img src="images/128x128.png" class="img-responsive" alt="profile picture" />
+	  </div>
+	  <div class="col-sm-4">
+	    <h3>Name</h3>
+	    Nam euismod nisl et faucibus tempor. Sed volutpat.
+	  </div>
+	  <div class="col-sm-2">
+	    <img src="images/128x128.png" class="img-responsive" alt="profile picture" />
+	  </div>
+	  <div class="col-sm-4">
+	    <h3>Name</h3>
+	    Proin non convallis ante. In tempor vehicula amet.
+	  </div>
+	</div>
+      </div>
     </div>
-</div>
+
+    <script>
+      $(document).ready(function () {
+          $('#navbar').load("navbar.html");
+      });
+    </script>
+  </body>
+</html>
