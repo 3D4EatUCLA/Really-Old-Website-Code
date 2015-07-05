@@ -15,6 +15,7 @@ function initialize() {
         arrows: true,
         waitForLayers: true,
         width: w,
+        height: 800,
         fade: true,
         buttons: false,
     });
