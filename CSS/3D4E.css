@@ -43,6 +43,12 @@ html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container
     width: 100%;
 }
 
+.img-logo {
+    max-height: 280px;
+    float: left;
+    padding: 10px;
+}
+
 .page-scroll {
     cursor: pointer;
 }
