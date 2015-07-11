@@ -35,6 +35,8 @@ html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container
 .img-profile {
     float:left;
     padding:10px;
+    height: 128px;
+    width: 128px;
 }
 
 .img-banner {
@@ -51,4 +53,8 @@ html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container
 
 .page-scroll {
     cursor: pointer;
+}
+
+.banner {
+    width:100%;
 }
