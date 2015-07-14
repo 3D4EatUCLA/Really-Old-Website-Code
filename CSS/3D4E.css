@@ -32,11 +32,21 @@ html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container
     background-color: #93d3eb;
 }
 
+.img-profile-container {
+    background-size: cover;
+}
+
 .img-profile {
     float:left;
     padding:10px;
     height: 128px;
     width: 128px;
+    transition: opacity ease-in-out .4s;
+    transition-delay: .5s;
+}
+
+.img-profile:hover {
+    opacity: 0;
 }
 
 .img-banner {
