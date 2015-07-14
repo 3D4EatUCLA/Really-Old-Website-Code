@@ -8,28 +8,25 @@ html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container
     margin-bottom:0px;
 }
 
-.navbar, .navbar a, .dropdown-menu>li>a{
-    background-color: #93d3eb;
-    color: #0000cc;
+.navbar, .navbar a, .dropdown-menu>li>a, .navbar-nav>li>.dropdown-menu{
+    background-color: #262626;
+    color: #CCCCCC;
     min-height: 0;
 }
 
 .navbar-nav>li>a {
     padding-top: 5px;
     padding-bottom: 5px;
+    transition: background cubic-bezier(.21,.19,.55,.99) .4s;
 }
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .dropdown-menu>li>a:hover{
-    background-color: inherit;
+    background-color: #ffffff;
     color: #000033;
 }
 
 .container-body {
     margin: 150px 0 50px 0;
     padding-top: 50px;
-}
-
-.navbar-nav>li>.dropdown-menu {
-    background-color: #93d3eb;
 }
 
 .img-profile-container {
@@ -42,7 +39,6 @@ html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container
     height: 128px;
     width: 128px;
     transition: opacity ease-in-out .4s;
-    transition-delay: .5s;
 }
 
 .img-profile:hover {
@@ -67,4 +63,15 @@ html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container
 
 .banner {
     width:100%;
+}
+
+#right-button {
+    position: fixed;
+    right: -50px;
+    top: 500px;
+    z-index: 999;
+    padding: 20px;
+    display: inline;
+    color: #ffffff;
+    background-color: #ff9000;
 }
