@@ -8,25 +8,30 @@
     <title>3D4E at UCLA</title>
   </head>
   <body>
-
     <nav class="navbar navbar-fixed-top" id="navbar">
       <div class="container-fluid"> 
 	<div class="navbar-header" style="cursor:pointer">
-	  <button data-toggle="collapse" data-target="#myNavbar" class="navbar-toggle" data-delay="0" type="button"></button>
+	  <a class="navbar-brand"></a>
+	  <button class="navbar-toggle" data-toggle = "collapse" data-target="#myNavbar">
+	    <img src="images/128x128.png" />
+	  </button>
 	</div> 
 	<div id="myNavbar" style="cursor:pointer" class="collapse navbar-collapse"> 
 	  <ul class="nav navbar-nav"> 
 	    <li class="dropdown">
-	      <a class="dropdown-toggle page-scroll" href="#section-1">About</a>
+	      <a class="page-scroll" href="#section-1">About</a>
 	    </li>
 	    <li class="dropdown">
-	      <a class="dropdown-toggle page-scroll" href="#section-2">Projects</a>
+	      <a class="page-scroll" href="#section-2">Projects</a>
 	    </li>
 	    <li>
-	      <a class="dropdown-toggle page-scroll" href="#section-3">Executive Board</a>
+	      <a class="page-scroll" href="#section-3">Executive Board</a>
 	    </li>
 	    <li>
-	      <a class="dropdown-toggle page-scroll" href="#section-4">Calendar</a>
+	      <a class="page-scroll" href="#section-4">Sponsors</a>
+	    </li>
+	    <li>
+	      <a class="page-scroll" href="#section-5">Calendar</a>
 	    </li>
 	    <li class="dropdown">
 	      <a class="dropdown-toggle"  data-toggle="dropdown" style="cursor:pointer;">Other chapters<span class="caret"></span></a>
@@ -39,153 +44,38 @@
 
 	  </ul> 
 	  <ul class="nav navbar-nav navbar-right"> 
-	    <li><a><span class="glyphicon glyphicon-envelope"></span> Contact</a></li> 
+	    <li>
+	      <a href = "#contact" data-toggle = "modal">
+		<button type="button" class="btn btn-primary btn-xs">Contact</button>
+	      </a>
+	    </li>
 	  </ul> 
 	</div> 
       </div> 
-
     </nav>
+
+    <div>
+      <a class="page-scroll" href="#section-0" id="right-button">
+	<button type="button" class="btn btn-warning btn-custom">
+	  TOP
+	</button>
+      </a>
+    </div>
 
     <div id="dummy">a</div>
 
-    <div class="slider-pro" id="my-slider">
-      <div class="sp-slides">
-	<div class="sp-slide">
-	  <img class="sp-image" src="../src/css/images/blank.gif"
-	       data-src="images/3D4E/index/IMG_1589.jpg"/>
-
-	  <p class="sp-layer sp-white sp-padding"
-	     data-horizontal="50" data-vertical="50"
-	     data-show-transition="left" data-hide-transition="up" data-show-delay="400" data-hide-delay="200">
-	    Lorem ipsum
-	  </p>
-
-	  <p class="sp-layer sp-black sp-padding hide-small-screen"
-	     data-horizontal="180" data-vertical="50"
-	     data-show-transition="left" data-hide-transition="up" data-show-delay="600" data-hide-delay="100">
-	    dolor sit amet
-	  </p>
-
-	  <p class="sp-layer sp-white sp-padding hide-medium-screen"
-	     data-horizontal="315" data-vertical="50"
-	     data-show-transition="left" data-hide-transition="up" data-show-delay="800">
-	    consectetur adipisicing elit.
-	  </p>
-	</div>
-
-	<div class="sp-slide">
-	  <img class="sp-image" src="../src/css/images/blank.gif"
-	       data-src="images/3D4E/index/IMG_1600.jpg"/>
-
-	  <h3 class="sp-layer sp-black sp-padding" 
-	      data-horizontal="40" data-vertical="10%" 
-	      data-show-transition="left" data-hide-transition="left">
-	    Lorem ipsum dolor sit amet
-	  </h3>
-
-	  <p class="sp-layer sp-white sp-padding hide-medium-screen" 
-	     data-horizontal="40" data-vertical="22%" 
-	     data-show-transition="left" data-show-delay="200" data-hide-transition="left" data-hide-delay="200">
-	    consectetur adipisicing elit
-	  </p>
-
-	  <p class="sp-layer sp-black sp-padding hide-small-screen" 
-	     data-horizontal="40" data-vertical="34%" data-width="350" 
-	     data-show-transition="left" data-show-delay="400" data-hide-transition="left" data-hide-delay="500">
-	    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	  </p>
-	</div>
-
-	<div class="sp-slide">
-	  <img class="sp-image" src="../src/css/images/blank.gif"
-	       data-src="images/3D4E/index/IMG_1601.jpg"/>
-
-	  <p class="sp-layer sp-white sp-padding" 
-	     data-position="centerCenter" data-vertical="-50" 
-	     data-show-transition="right" data-hide-transition="left" data-show-delay="500" >
-	    Lorem ipsum dolor sit amet
-	  </p>
-
-	  <p class="sp-layer sp-black sp-padding hide-small-screen" 
-	     data-position="centerCenter" data-vertical="50" 
-	     data-show-transition="left" data-show-delay="700" data-hide-transition="right" data-hide-delay="200">
-	    consectetur adipisicing elit
-	  </p>
-	</div>
-
-	<div class="sp-slide">
-	  <img class="sp-image" src="../src/css/images/blank.gif"
-	       data-src="images/3D4E/index/IMG_2301.jpg"/>
-
-	  <p class="sp-layer sp-black sp-padding" 
-	     data-position="bottomLeft"
-	     data-show-transition="up" data-hide-transition="down">
-	    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
-	  </p>
-	</div>
-
-	<div class="sp-slide">
-	  <img class="sp-image" src="../src/css/images/blank.gif"
-	       data-src="images/3D4E/index/UCLA-car.jpg"/>
-
-	  <p class="sp-layer sp-white sp-padding" 
-	     data-vertical="10" data-horizontal="2%" data-width="96%" 
-	     data-show-transition="down" data-show-delay="400" data-hide-transition="up">
-	    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
-	  </p>
-	</div>
-
-	<div class="sp-slide">
-	  <img class="sp-image" src="../src/css/images/blank.gif"
-	       data-src="images/3D4E/index/exploratory1.jpg"/>
-
-	  <p class="sp-layer sp-white sp-padding" 
-	     data-horizontal="10" data-vertical="10" data-width="35%">
-	    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
-	  </p>
-	</div>
-
-	<div class="sp-slide">
-	  <img class="sp-image" src="../src/css/images/blank.gif"
-	       data-src="images/3D4E/index/exploratory2.jpg"/>
-
-	  <p class="sp-layer sp-black sp-padding" 
-	     data-position="bottomLeft" data-vertical="10" data-horizontal="2%" data-width="96%" 
-	     data-show-transition="up" data-show-delay="400" data-hide-transition="down">
-	    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
-	  </p>
-	</div>
-
-	<div class="sp-slide">
-	  <img class="sp-image" src="../src/css/images/blank.gif"
-	       data-src="images/3D4E/index/exploratory3.jpg"/>
-	</div>
-
-	<div class="sp-slide">
-	  <img class="sp-image" src="../src/css/images/blank.gif"
-	       data-src="images/3D4E/index/the-competition.jpg"/>
-
-	  <p class="sp-layer sp-black sp-padding" 
-	     data-position="bottomLeft" data-horizontal="50" data-vertical="100"
-	     data-show-transition="down" data-show-delay="500" data-hide-transition="up">
-	    Lorem ipsum dolor sit amet
-	  </p>
-
-	  <p class="sp-layer sp-white sp-padding hide-small-screen" 
-	     data-position="bottomLeft" data-horizontal="50" data-vertical="50"
-	     data-show-transition="up" data-show-delay="500" data-hide-transition="down">
-	    consectetur adipisicing elit <span class="hide-medium-screen">, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-	  </p>
-	</div>
-      </div>
+    <div class="container-fluid" id="section-0" style="padding:0;">
+      <img class="banner" src="images/3D4E/index/11715373_10204025107456213_1774242747_o.jpg" alt="cover-photo" />
     </div>
 
     <div class="container">
       <div class="container-body" id="section-1">
+	<div class="row">
+	  <h1>ABOUT US</h1>
+	</div>
 	<div class="row"> 
 	  <div class="col-sm-12">
-	    <img src="images/small-logo.png" class="img-rounded img-responsive img-logo" />
-	    <h2>3D4E at UCLA</h2>
+	    <img src="images/11694196_10204024925371661_452462001_n.jpg" class="img-rounded img-responsive img-logo" />
 	    3D4E (3D For Everyone) is an intercollegiate network for enthusiasts of 3D printing and rapid-prototyping. There are currently four chapters in the network, founded by students at UCLA, University of Southern California, Loyola Marymount University, and San Diego State University.<br><br>
 	    In Fall 2014, 3D4E at UCLA co-hosted a 3D printing exhibition with Young's Research Library to demonstrate the capabilities of 3D printers. The event attracted the interest of more than 200 people and greatly increased the awareness of 3D printing on campus. In Spring 2015, we secured a sponsorship agreement with 3D printer manufacturer XYZPrinting Inc. Other partners include StartUP UCLA, a hub on campus for up and coming technologies and businesses, and the Blackstone LaunchPad, where we house our 3D printers and host workshops and events.<br>
 	  </div>
@@ -208,73 +98,150 @@
 	</div>
 	<div class="row">
 	  <div class="col-sm-6">
-	    <img src="images/128x128.png" class="img-responsive img-profile" alt="profile picture"/>
-	    <h3>Name</h3>
-	    <h4>Position</h4>
-	    Pellentesque malesuada porttitor arcu turpis duis.
+	    <div class="img-profile-container" style="background-image: url('images/3D4E/eboard/HoMing.jpg')">
+	      <img src="images/3D4E/eboard/HoMing.jpg" class="img-responsive img-profile" alt="profile picture"/>
+	    </div>
+	    <h3>HO MING YIM</h3>
+	    <h4>President</h4>
+	    As president of 3D4E at UCLA, Ho Ming works closely with the executive board and looks over all members in the club. Majoring in Chemical Engineering and minoring is Geospatial Information System & Technology, Ho Ming has a very broad set of skills from computer aided design to website design, geospatial analysis to numerical analysis, and process flow modeling to computer modeling.
 	  </div>
 	  <div class="col-sm-6">
-	    <img src="images/128x128.png" class="img-responsive img-profile" alt="profile picture"/>
-	    <h3>Name</h3>
-	    <h4>Position</h4>
-	    Pellentesque malesuada porttitor arcu turpis duis.
+	    <img src="images/3D4E/eboard/merrick-250kb.jpg" class="img-responsive img-profile" alt="profile picture"/>
+	    <h3>MERRICK CAMPBELL</h3>
+	    <h4>Vice President</h4>
+	    Merrick Campbell is currently a senior undergraduate mechanical engineering student at UCLA.  He co-founded 3D4E at UCLA to help other students explore the boundary between engineering and multi-media through 3D Printing.  Outside of lab and studies, he enjoys reading, cooking, and constructing open-source 3D Printers. As an Eagle Scout, he mentors current scouts through the Bruin Scout program at UCLA.
 	  </div>
 	</div>
 	<br>
 	<div class="row">
 	  <div class="col-sm-6">
+	    <img src="images/3D4E/eboard/rebecca.jpg" class="img-responsive img-profile" alt="profile picture"/>
+	    <h3>REBECCA DeSHETLER</h3>
+	    <h4>Secretary</h4>
+	    Rebecca DeShetler, a second year engineering student at UCLA, became involved in 3D4E out of a life-long interest in design. In addition to loving engineering classes at UCLA, Rebecca has worked on a political campaign, at a non-profit, and at a newspaper. Outside of her studies, Rebecca is a guide for UCLA Outdoor Adventures, and loves backpacking, teaching, and reading. 
+	  </div>
+	  <div class="col-sm-6">
+	    <img src="images/3D4E/eboard/Brooke.jpg" class="img-responsive img-profile" alt="profile picture"/>
+	    <h3>BROOKE ZAMPBELL</h3>
+	    <h4>Public Relations Chair</h4>
+	    Brooke is a second year bioengineering student at UCLA. She joined 3D4E to gain hands-on experience in an emerging technical field. As public relations and social chairperson, she manages social events and social media presence for the club. Most recently, she has worked in a UC San Diego bioengineering research lab on single cell genome sequencing. Her other interests include horseback riding, painting, and reading.
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-6">
 	    <img src="images/128x128.png" class="img-responsive img-profile" alt="profile picture"/>
-	    <h3>Name</h3>
-	    <h4>Position</h4>
-	    Pellentesque malesuada porttitor arcu turpis duis.
+	    <h3>GARY ZHANG</h3>
+	    <h4>TECHNICAL DIRECTOR</h4>
+	    Wait? When is this due again?
 	  </div>
 	  <div class="col-sm-6">
 	    <img src="images/128x128.png" class="img-responsive img-profile" alt="profile picture"/>
-	    <h3>Name</h3>
-	    <h4>Position</h4>
-	    Pellentesque malesuada porttitor arcu turpis duis.
+	    <h3>BAIXIAO HUANG</h3>
+	    <h4>TECHNICAL DIRECTOR</h4>
+	    Wait? When is this due again?
+	  </div>
+	</div><div class="row">
+	  <div class="col-sm-6">
+	    <img src="images/128x128.png" class="img-responsive img-profile" alt="profile picture"/>
+	    <h3>TIFFANY WU</h3>
+	    <h4>WEBMASTER</h4>
+	    Wait? When is this due again?
+	  </div>
+	  <div class="col-sm-6">
+	    <img src="images/128x128.png" class="img-responsive img-profile" alt="profile picture"/>
+	    <h3>SEAN CHEN</h3>
+	    <h4>WEBMASTER</h4>
+	    Wait? When is this due again?
+	  </div>
+	</div>
+
+	<!--Section 4: Sponsors-->
+	<div class="container-body" id="section-4">
+	  <div class="row">
+	    <h1>SPONSORS</h1>
+	  </div>
+	  <div class="row">
+	    <div class="col-sm-12">
+	      <div class="jumbotron">
+		TODO: Add Sponsors    
+	      </div>
+
+	    </div>  
+	  </div>
+	</div>
+
+	<div class="container-body" id="section-5">
+	  <div class="row">
+	    <h1>CALENDAR</h1>
+	  </div>
+	  <div class="row">
+	    <div class="col-sm-12">
+	      <iframe id="calendar" src="https://www.google.com/calendar/embed?src=m7ik414l81tcmi7rj55cd9tid4%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0; width: 100%;" scrolling="no"></iframe>
+	    </div>  
 	  </div>
 	</div>
       </div>
-      <div class="container-body" id="section-4">
-	<div class="row">
-	  <h1>CALENDAR</h1>
-	</div>
-	<div class="row">
-	  <div class="col-sm-12">
-	    <iframe id="calendar" src="https://www.google.com/calendar/embed?src=m7ik414l81tcmi7rj55cd9tid4%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0; width: 100%;" scrolling="no"></iframe>
-	  </div>  
-	</div>
 
+      <!--Bottom Nav --> 
+      <nav class="navbar navbar-default navbar-fixed-bottom">
+	<div class="container">
+	  <div class="row">
+	    <div class="col-lg-offset-2"></div>
+	    <div id="catchphrase" class="col-lg-8 text-center">Founded in 2012. 3D4E at UCLA. Tinker. Make. Print.</div>
+	    <div class="col-lg-2">
+	      <div class="pull-right">
+		<a href="https://www.youtube.com" target="_blank"><img src="images/socialmedia/48/Youtube-Icon.png" class="img-responsive"></a>
+	      </div>
+	      <div class="pull-right">
+		<a href="https://www.facebook.com/pages/3D4E-at-UCLA/827357580705483?fref=ts" target="_blank"><img src="images/socialmedia/48/facebook-Icon.png" class="img-responsive"></a>
+	      </div>
+	      <!--Icon Credit: http://www.designbolts.com/2013/09/08/40-free-shaded-social-media-icons/-->
+	    </div>
+	  </div>
+	</div>
+      </nav>
+
+
+      <!--contact modal --> 
+      <div class="modal fade" id="contact">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <h4>Contact 3D4E at UCLA</h4>
+	    </div>
+	    <div class="modal-body">
+	      <center>
+		<iframe src="https://docs.google.com/forms/d/1T8z-nN3pxjhmV79zC3DLI2rIiR5tXN-kicC7SjmBvbE/viewform?embedded=true" width="550" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+	      </center>
+	    </div>
+	    <div class="modal-footer">
+	      <a class="btn btn-danger" data-dismiss="modal">Close</a>
+	    </div>
+	  </div>
+	</div>
       </div>
     </div>
 
-    <img class="img-banner" src="images/competition-group.jpg" />
+      <!-- Javascripts Core
+  ==============================
+      <!-- placed at end so pages will load faster -->
 
-    <div id="page-bottom" class="container-fluid" style="background-color: #ffffcc;">
-      <div class="row"><div id="catchphrase" class="col-lg-12 text-center">Founded in 2012. 3D4E at UCLA. Tinker. Make. Print.</div></div>
-    </div>
+      <!-- jQuery v1.11.1 -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-    <!-- Javascripts Core
-==============================
-    <!-- placed at end so pages will load faster -->
+      <!-- jQuery Easing v1.3 -->
+      <script type="text/javascript" src="js/jquery.easing.js"></script>
 
-    <!-- jQuery v1.11.1 -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <!-- Bootstrap v3.3.4 -->
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-    <!-- jQuery Easing v1.3 -->
-    <script type="text/javascript" src="js/jquery.easing.js"></script>
+      <script src="plugins/slider-pro-master/jquery.sliderPro.min.js"></script>
 
-    <!-- Bootstrap v3.3.4 -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+      <!-- Custom Javascript -->
+      <script type="text/javascript" src="js/3D4E.js"></script>
 
-    <script src="plugins/slider-pro-master/jquery.sliderPro.min.js"></script>
-
-    <!-- Custom Javascript -->
-    <script type="text/javascript" src="js/3D4E.js"></script>
-
-    <script>
-      initialize();
-    </script>
+      <script>
+        initialize();
+      </script>
   </body>
 </html>

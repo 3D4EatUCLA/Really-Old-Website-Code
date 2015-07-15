@@ -67,11 +67,18 @@ html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container
 
 #right-button {
     position: fixed;
-    right: -50px;
-    top: 500px;
+    right: -35px;
+    bottom: 15%;
     z-index: 999;
-    padding: 20px;
     display: inline;
     color: #ffffff;
     background-color: #ff9000;
+}
+
+.btn-custom {
+    background-color:inherit;
+}
+
+.navbar-toggle {
+    background-color: #ffffff;
 }

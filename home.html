@@ -12,10 +12,8 @@
       <div class="container-fluid"> 
 	<div class="navbar-header" style="cursor:pointer">
 	  <a class="navbar-brand"></a>
-	  <button class="navbar-toggle" data-toggle = "collapse" data-target = "#myNavbar">
-	    <span class ="icon-bar"></span>
-	    <span class ="icon-bar"></span>
-	    <span class ="icon-bar"></span>
+	  <button class="navbar-toggle" data-toggle = "collapse" data-target="#myNavbar">
+	    <img src="images/128x128.png" />
 	  </button>
 	</div> 
 	<div id="myNavbar" style="cursor:pointer" class="collapse navbar-collapse"> 
@@ -56,13 +54,17 @@
       </div> 
     </nav>
 
-    <div id="right-button">
-      TOP
+    <div>
+      <a class="page-scroll" href="#section-0" id="right-button">
+	<button type="button" class="btn btn-warning btn-custom">
+	  TOP
+	</button>
+      </a>
     </div>
 
     <div id="dummy">a</div>
 
-    <div class="container-fluid" style="padding:0;">
+    <div class="container-fluid" id="section-0" style="padding:0;">
       <img class="banner" src="images/3D4E/index/11715373_10204025107456213_1774242747_o.jpg" alt="cover-photo" />
     </div>
 
@@ -125,99 +127,120 @@
 	    Brooke is a second year bioengineering student at UCLA. She joined 3D4E to gain hands-on experience in an emerging technical field. As public relations and social chairperson, she manages social events and social media presence for the club. Most recently, she has worked in a UC San Diego bioengineering research lab on single cell genome sequencing. Her other interests include horseback riding, painting, and reading.
 	  </div>
 	</div>
-      </div>
-      
-      <!--Section 4: Sponsors-->
-      <div class="container-body" id="section-4">
 	<div class="row">
-	  <h1>SPONSORS</h1>
+	  <div class="col-sm-6">
+	    <img src="images/128x128.png" class="img-responsive img-profile" alt="profile picture"/>
+	    <h3>GARY ZHANG</h3>
+	    <h4>TECHNICAL DIRECTOR</h4>
+	    Wait? When is this due again?
+	  </div>
+	  <div class="col-sm-6">
+	    <img src="images/128x128.png" class="img-responsive img-profile" alt="profile picture"/>
+	    <h3>BAIXIAO HUANG</h3>
+	    <h4>TECHNICAL DIRECTOR</h4>
+	    Wait? When is this due again?
+	  </div>
+	</div><div class="row">
+	  <div class="col-sm-6">
+	    <img src="images/128x128.png" class="img-responsive img-profile" alt="profile picture"/>
+	    <h3>TIFFANY WU</h3>
+	    <h4>WEBMASTER</h4>
+	    Wait? When is this due again?
+	  </div>
+	  <div class="col-sm-6">
+	    <img src="images/128x128.png" class="img-responsive img-profile" alt="profile picture"/>
+	    <h3>SEAN CHEN</h3>
+	    <h4>WEBMASTER</h4>
+	    Wait? When is this due again?
+	  </div>
 	</div>
-	<div class="row">
-	  <div class="col-sm-12">
-	    <div class="jumbotron">
-	      TODO: Add Sponsors    
+
+	<!--Section 4: Sponsors-->
+	<div class="container-body" id="section-4">
+	  <div class="row">
+	    <h1>SPONSORS</h1>
+	  </div>
+	  <div class="row">
+	    <div class="col-sm-12">
+	      <div class="jumbotron">
+		TODO: Add Sponsors    
+	      </div>
+
+	    </div>  
+	  </div>
+	</div>
+
+	<div class="container-body" id="section-5">
+	  <div class="row">
+	    <h1>CALENDAR</h1>
+	  </div>
+	  <div class="row">
+	    <div class="col-sm-12">
+	      <iframe id="calendar" src="https://www.google.com/calendar/embed?src=m7ik414l81tcmi7rj55cd9tid4%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0; width: 100%;" scrolling="no"></iframe>
+	    </div>  
+	  </div>
+	</div>
+      </div>
+
+      <!--Bottom Nav --> 
+      <nav class="navbar navbar-default navbar-fixed-bottom">
+	<div class="container">
+	  <div class="row">
+	    <div class="col-lg-offset-2"></div>
+	    <div id="catchphrase" class="col-lg-8 text-center">Founded in 2012. 3D4E at UCLA. Tinker. Make. Print.</div>
+	    <div class="col-lg-2">
+	      <div class="pull-right">
+		<a href="https://www.youtube.com" target="_blank"><img src="images/socialmedia/48/Youtube-Icon.png" class="img-responsive"></a>
+	      </div>
+	      <div class="pull-right">
+		<a href="https://www.facebook.com/pages/3D4E-at-UCLA/827357580705483?fref=ts" target="_blank"><img src="images/socialmedia/48/facebook-Icon.png" class="img-responsive"></a>
+	      </div>
+	      <!--Icon Credit: http://www.designbolts.com/2013/09/08/40-free-shaded-social-media-icons/-->
 	    </div>
-
-	  </div>  
+	  </div>
 	</div>
-      </div>
-      
-      <div class="container-body" id="section-5">
-	<div class="row">
-	  <h1>CALENDAR</h1>
-	</div>
-	<div class="row">
-	  <div class="col-sm-12">
-	    <iframe id="calendar" src="https://www.google.com/calendar/embed?src=m7ik414l81tcmi7rj55cd9tid4%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0; width: 100%;" scrolling="no"></iframe>
-	  </div>  
-	</div>
+      </nav>
 
-      </div>
 
-    </div>
-
-    <!--Bottom Image Banner-->
-    <img class="img-banner" src="images/competition-group.jpg" />
-
-    <!--Bottom Nav --> 
-    <nav class="navbar navbar-default navbar-fixed-bottom">
-      <div class="container">
-	<div class="row">
-	  <div class="col-lg-offset-2"></div>
-	  <div id="catchphrase" class="col-lg-8 text-center">Founded in 2012. 3D4E at UCLA. Tinker. Make. Print.</div>
-	  <div class="col-lg-2">
-	    <div class="pull-right">
-	      <a href="https://www.youtube.com" target="_blank"><img src="images/socialmedia/48/Youtube-Icon.png" class="img-responsive"></a>
+      <!--contact modal --> 
+      <div class="modal fade" id="contact">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <h4>Contact 3D4E at UCLA</h4>
 	    </div>
-	    <div class="pull-right">
-	      <a href="https://www.facebook.com/pages/3D4E-at-UCLA/827357580705483?fref=ts" target="_blank"><img src="images/socialmedia/48/facebook-Icon.png" class="img-responsive"></a>
+	    <div class="modal-body">
+	      <center>
+		<iframe src="https://docs.google.com/forms/d/1T8z-nN3pxjhmV79zC3DLI2rIiR5tXN-kicC7SjmBvbE/viewform?embedded=true" width="550" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+	      </center>
 	    </div>
-	    <!--Icon Credit: http://www.designbolts.com/2013/09/08/40-free-shaded-social-media-icons/-->
+	    <div class="modal-footer">
+	      <a class="btn btn-danger" data-dismiss="modal">Close</a>
+	    </div>
 	  </div>
 	</div>
       </div>
-    </nav>
 
+      <!-- Javascripts Core
+  ==============================
+      <!-- placed at end so pages will load faster -->
 
-    <!--contact modal --> 
-    <div class="modal fade" id="contact">
-      <div class="modal-dialog">
-	<div class="modal-content">
-	  <div class="modal-header">
-	    <h4>Contact 3D4E at UCLA</h4>
-	  </div>
-	  <div class="modal-body">
-	    <center>
-	      <iframe src="https://docs.google.com/forms/d/1T8z-nN3pxjhmV79zC3DLI2rIiR5tXN-kicC7SjmBvbE/viewform?embedded=true" width="550" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-	    </center>
-	  </div>
-	  <div class="modal-footer">
-	    <a class="btn btn-danger" data-dismiss="modal">Close</a>
-	  </div>
-	</div>
-      </div>
-    </div>
+      <!-- jQuery v1.11.1 -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-    <!-- Javascripts Core
-==============================
-    <!-- placed at end so pages will load faster -->
+      <!-- jQuery Easing v1.3 -->
+      <script type="text/javascript" src="js/jquery.easing.js"></script>
 
-    <!-- jQuery v1.11.1 -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <!-- Bootstrap v3.3.4 -->
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-    <!-- jQuery Easing v1.3 -->
-    <script type="text/javascript" src="js/jquery.easing.js"></script>
+      <script src="plugins/slider-pro-master/jquery.sliderPro.min.js"></script>
 
-    <!-- Bootstrap v3.3.4 -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+      <!-- Custom Javascript -->
+      <script type="text/javascript" src="js/3D4E.js"></script>
 
-    <script src="plugins/slider-pro-master/jquery.sliderPro.min.js"></script>
-
-    <!-- Custom Javascript -->
-    <script type="text/javascript" src="js/3D4E.js"></script>
-
-    <script>
-      initialize();
-    </script>
+      <script>
+        initialize();
+      </script>
   </body>
 </html>

@@ -2,9 +2,9 @@ function initialize() {
     $(function () {
         $("a.page-scroll").bind("click", function (e) {
             var t = $(this);
-            $("html, body").stop().animate(
+            $("html, body").animate(
                     {scrollTop: $(t.attr("href")).offset().top - $(".navbar").height()}
-            , 750, "easeInOutExpo");
+            , 750, "easeInOutQuad");
             e.preventDefault();
         });
     }
@@ -20,7 +20,7 @@ function initialize() {
             }, 750,"easeInOutExpo");
         } else {
             $('#right-button').stop().animate({
-                right: "-50px"
+                right: "-35px"
             }, 750,"easeInOutExpo");
         }
     });
