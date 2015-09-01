@@ -41,10 +41,6 @@ html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container
     transition: opacity ease-in-out .4s;
 }
 
-.img-profile:hover {
-    opacity: 0;
-}
-
 .img-banner {
     border-top: thick double #000000;
     border-bottom: thick double #000000;
@@ -81,4 +77,9 @@ html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container
 
 .navbar-toggle {
     background-color: #ffffff;
+}
+
+#navbar > div > div.navbar-header > a {
+  padding: 0;
+  height: 0;
 }
