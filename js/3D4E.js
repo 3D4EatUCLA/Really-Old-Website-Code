@@ -1,4 +1,12 @@
  function initialize() {
+   loadLiquidFillGauge("fillgaugecomplete1", 100);
+   loadLiquidFillGauge("fillgaugecomplete2", 100);
+   loadLiquidFillGauge("fillgauge1", 15);
+   loadLiquidFillGauge("fillgauge2", 25);
+   loadLiquidFillGauge("fillgauge3", 15);
+   loadLiquidFillGauge("fillgauge4", 0);
+   
+
    $(function () {
      $("a.page-scroll").bind("click", function (e) {
        var t = $(this);
