@@ -5,18 +5,14 @@
     <link rel="stylesheet" href="plugins/slider-pro-master/slider-pro.min.css"/>
     <link rel="stylesheet" href="CSS/Bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="CSS/3D4E.css" type="text/css" />
+    <link rel="stylesheet" href="js/gridster/gridster.css" />
+    <link rel="stylesheet" href="js/gridster/3D4EGridster.css" />
+
     <title>3D4E at UCLA</title>
   </head>
   <body>
     <!-- Facebook plugin -->
     <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
 
     <nav class="navbar navbar-fixed-top" id="navbar">
       <div class="container-fluid"> 
@@ -62,7 +58,7 @@
                     </div>
                     <div class="modal-body">
                       <center>
-                        <iframe src="https://docs.google.com/forms/d/1T8z-nN3pxjhmV79zC3DLI2rIiR5tXN-kicC7SjmBvbE/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                        <iframe src="https://docs.google.com/forms/d/1T8z-nN3pxjhmV79zC3DLI2rIiR5tXN-kicC7SjmBvbE/viewform?embedded=true" height="500">Loading...</iframe>
                       </center>
                     </div>
                     <div class="modal-footer">
@@ -100,7 +96,6 @@
     </div>
 
     <div class="container">
-
       <!--Section 1: About Us-->
       <div class="container-body" id="section-1">
         <div class="row">
@@ -113,11 +108,14 @@
             In Fall 2014, 3D4E at UCLA co-hosted a 3D printing exhibition with Young's Research Library to demonstrate the capabilities of 3D printers. The event attracted the interest of more than 200 people and greatly increased the awareness of 3D printing on campus. In Spring 2015, we secured a sponsorship agreement with 3D printer manufacturer XYZPrinting Inc. Other partners include StartUP UCLA, a hub on campus for up and coming technologies and businesses, and the Blackstone LaunchPad, where we house our 3D printers and host workshops and events.<br>
           </div>
           <div class="col-sm-4">
-            <div class="fb-page" data-href="https://www.facebook.com/3D4E-at-UCLA-827357580705483/timeline/" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"></div>
+            <div class="fb-page" data-href="https://www.facebook.com/3D4E-at-UCLA-827357580705483/timeline/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"></div>
           </div>
         </div>
       </div>
+    </div>
 
+
+    <div class="container">
       <!--Section 2: Projects-->
       <div class="container-body" id="section-2">
         <div class="row">
@@ -126,11 +124,10 @@
         <div class="row">
           <div class="col-sm-4"><h3>3D4E Projects</h3>Every year, 3D4E works on a series of club projects.  Most recently, 3D4E at UCLA designed and 3D Printed a robot to compete against the other 3D4E chapters.  In Fall 2015, 3D4E will launch new projects, including designing 3D Printed Prosthetics.  <a href="#section-5">Attend</a> one of our meetings to find out more!</div>
           <div class="col-sm-4"><h3>Club Partnerships</h3>In addition to our own club projects, we have worked with many different organizations on campus.  We have manufactured lightweight mounts for the <a href="http://uclaracing.org/supermileage/" target="_blank">UCLA Supermileage Vehicle Team</a>, parts for <a href="http://www.ieee.ucla.edu/" target="_blank">UCLA IEEE Natcar</a> competition vehicles, and a model cube satellite for <a href="http://elfin.igpp.ucla.edu/" target="_blank"> UCLA Elfin.</a>  Please <a href="#contact" data-toggle = "modal">contact us</a> to learn how we can work together.</div>
+
           <div class="col-sm-4"><h3>Independent Projects</h3>3D4E resources are also available for your independent projects.  We can help you design and 3D Print your ideas.  <a href="#contact" data-toggle = "modal">Contact us!</a>  We look forward to working with you!</div>
         </div>
       </div>
-<<<<<<< HEAD
-=======
     </div>
 
     <div class="container">
@@ -195,8 +192,16 @@
               <li data-row="3" data-col="2" data-sizex="3" data-sizey="1">Coming Soon</li>
               <li data-row="3" data-col="3" data-sizex="3" data-sizey="1">
               </li>
->>>>>>> homing-test
 
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
       <!--Section 3: Executive Board-->            
       <div class="container-body" id="section-3">
         <div class="row">
@@ -261,7 +266,10 @@
           </div>
         </div>
       </div>
+    </div>
 
+
+    <div class="container">
       <!--Section 4: Sponsors-->
       <div class="container-body" id="section-4">
         <div class="row">
@@ -277,7 +285,10 @@
           </div>
         </div>
       </div>
+    </div>
 
+
+    <div class="container">
       <!--Section 5: Calendar-->                
       <div class="container-body" id="section-5">
         <div class="row">
@@ -285,62 +296,43 @@
         </div>
         <div class="row">
           <div class="col-sm-12">
-            <center><iframe src="https://www.google.com/calendar/embed?mode=WEEK&showPrint=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=m7ik414l81tcmi7rj55cd9tid4%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe></center>
+            <center><iframe id="calendar" src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=m7ik414l81tcmi7rj55cd9tid4%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe></center>
           </div>  
         </div>
       </div>
+    </div>
 
-<<<<<<< HEAD
-
-      <!--Bottom Nav --> 
-      <nav class="navbar navbar-default navbar-fixed-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-offset-2"></div>
-            <div id="catchphrase" class="col-lg-8 text-center" style="text-align:right">Founded in 2012. 3D4E at UCLA. Tinker. Make. Print.</div>
-            <div class="col-lg-2">
-              <div class="pull-right">
-                <a href="https://www.youtube.com" target="_blank"><img src="images/socialmedia/48/Youtube-Icon.png" class="img-responsive"></a>
-              </div>
-              <div class="pull-right">
-                <a href="https://www.facebook.com/pages/3D4E-at-UCLA/827357580705483?fref=ts" target="_blank"><img src="images/socialmedia/48/facebook-Icon.png" class="img-responsive"></a>
-              </div>
-              <!--Icon Credit: http://www.designbolts.com/2013/09/08/40-free-shaded-social-media-icons/-->
-            </div>
-          </div>
-=======
     <!--Bottom Nav --> 
     <nav class="navbar navbar-default navbar-fixed-bottom">
       <div class="container">
         <div class="row">
           <div class="col-lg-offset-2"></div>
           <div id="catchphrase" class="col-lg-8 text-center" style="text-align:right">Founded in 2012. 3D4E at UCLA. Tinker. Make. Print.</div>
->>>>>>> homing-test
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <!--contact modal --> 
-      <div class="modal fade" id="contact">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4>Contact 3D4E at UCLA</h4>
-            </div>
-            <div class="modal-body">
-              <center>
-                <iframe src="https://docs.google.com/forms/d/1T8z-nN3pxjhmV79zC3DLI2rIiR5tXN-kicC7SjmBvbE/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-              </center>
-            </div>
-            <div class="modal-footer">
-              <a class="btn btn-danger" data-dismiss="modal">Close</a>
-            </div>
+    <!--contact modal --> 
+    <div class="modal fade" id="contact">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Contact 3D4E at UCLA</h4>
+          </div>
+          <div class="modal-body">
+            <center>
+              <iframe src="https://docs.google.com/forms/d/1T8z-nN3pxjhmV79zC3DLI2rIiR5tXN-kicC7SjmBvbE/viewform?embedded=true" height="500">Loading...</iframe>
+            </center>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-danger" data-dismiss="modal">Close</a>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Javascripts Core
-==============================
+  ==============================
     <!-- placed at end so pages will load faster -->
 
     <!-- jQuery v1.11.1 -->
@@ -352,7 +344,10 @@
     <!-- Bootstrap v3.3.4 -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-    <script src="plugins/slider-pro-master/jquery.sliderPro.min.js"></script>
+    <script src="js/slider-pro-master/jquery.sliderPro.min.js"></script>
+
+    <!-- Gridster -->
+    <script src="js/gridster/gridster.js"></script>
 
     <!-- D3js.org v3 -->
     <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
@@ -362,6 +357,17 @@
     
     <!-- Custom Javascript -->
     <script type="text/javascript" src="js/3D4E.js"></script>
+
+    <script>(function (d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id))
+           return;
+         js = d.createElement(s);
+         js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <script>
        initialize();
