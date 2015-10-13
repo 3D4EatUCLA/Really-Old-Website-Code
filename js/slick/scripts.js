@@ -7,12 +7,7 @@ $(document).ready(function() {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
-        accessibility: true,
-        arrows: true,
-        variableWidth: true,
-        adaptiveHeight: true,
-        
+        autoplaySpeed: 1000
     });
 
 });
