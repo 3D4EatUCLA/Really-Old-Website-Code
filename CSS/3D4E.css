@@ -2,6 +2,7 @@ html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container
     margin: 0;
     padding: 0;
     height: 100%;
+    position: relative;
 }
 
 .jumbotron {
@@ -25,7 +26,7 @@ html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container
 }
 
 .container-body {
-    margin: 150px 0 50px 0;
+    margin: 0 0 200px 0;
     padding-top: 50px;
 }
 

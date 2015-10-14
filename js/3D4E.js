@@ -1,20 +1,12 @@
  function initialize() {
-   $(function () {
-     $("a.page-scroll").bind("click", function (e) {
-       var t = $(this);
-       $("html, body").animate(
-        {scrollTop: $(t.attr("href")).offset().top - $(".navbar").height()}
-       , 750, "easeInOutQuad");
-       e.preventDefault();
-     });
-   }
-   );
-   loadLiquidFillGauge("fillgaugecomplete1", 100);
-   loadLiquidFillGauge("fillgaugecomplete2", 100);
-   loadLiquidFillGauge("fillgauge1", 15);
-   loadLiquidFillGauge("fillgauge2", 25);
-   loadLiquidFillGauge("fillgauge3", 15);
-   loadLiquidFillGauge("fillgauge4", 0);
+   $('body').scrollspy({target: ".navbar"});
+   
+   loadLiquidFillGauge("fillgaugecomplete1", $("#fillgaugecomplete1").attr("data-fill"));
+   loadLiquidFillGauge("fillgaugecomplete2", $("#fillgaugecomplete2").attr("data-fill"));
+   loadLiquidFillGauge("fillgauge1", $("#fillgauge1").attr("data-fill"));
+   loadLiquidFillGauge("fillgauge2", $("#fillgauge2").attr("data-fill"));
+   loadLiquidFillGauge("fillgauge3", $("#fillgauge3").attr("data-fill"));
+   loadLiquidFillGauge("fillgauge4", $("#fillgauge4").attr("data-fill"));
 
    var gridster;
 
