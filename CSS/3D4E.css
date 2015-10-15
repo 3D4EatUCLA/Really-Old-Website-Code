@@ -2,6 +2,7 @@ html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container
     margin: 0;
     padding-bottom: 20px;
     height: 100%;
+    position: relative;
 }
 
 .row-title {
@@ -29,8 +30,13 @@ html, body, .row, .container .jumbotron, .container-fluid .jumbotron, .container
 }
 
 .container-body {
+<<<<<<< HEAD
     margin: 150px 0 50px 0;
     padding-top: 0px;
+=======
+    margin: 0 0 200px 0;
+    padding-top: 50px;
+>>>>>>> 4f9b941d60cf0e3c8628758fa20b711e6b61ccd0
 }
 
 .img-profile-container {
