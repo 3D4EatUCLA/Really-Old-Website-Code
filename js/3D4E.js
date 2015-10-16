@@ -1,5 +1,4 @@
  function initialize() {
-   $('body').scrollspy({target: ".navbar"});
    
    loadLiquidFillGauge("fillgaugecomplete1", $("#fillgaugecomplete1").attr("data-fill"));
    loadLiquidFillGauge("fillgaugecomplete2", $("#fillgaugecomplete2").attr("data-fill"));
