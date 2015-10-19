@@ -9,14 +9,14 @@
 
    var gridster;
 
-   /*$(function () {
+  /*$(function () {
 
      gridster = $(".gridster ul").gridster({
        widget_base_dimensions: [100, 100],
        widget_margins: [5, 5],
        helper: 'clone'
      }).data('gridster');
-    */
+    
 
      // resize widgets on hover
      gridster.$el
@@ -28,7 +28,7 @@
       });
 
    });
-   
+   */
    $(function () {
      $("a.page-scroll").bind("click", function (e) {
        var t = $(this);
