@@ -13,13 +13,3 @@ $(document).ready(function() {
 
 }); 
 
-$(document).ready(function() {
-    
-     gridster = $(".gridster ul").gridster({
-       widget_base_dimensions: [100, 100],
-       widget_margins: [5, 5],
-       helper: 'clone'
-     }).data('gridster');
-}); 
-
-
