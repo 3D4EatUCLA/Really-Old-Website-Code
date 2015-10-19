@@ -10,7 +10,7 @@
    var gridster;
 
   $(function () {
-
+    
      gridster = $(".gridster ul").gridster({
        widget_base_dimensions: [100, 100],
        widget_margins: [5, 5],
