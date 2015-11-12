@@ -6,6 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="CSS/Bootstrap.css" type="text/css" />
+
+    <style>
+      .faqHeader {
+        font-size: 27px;
+        margin: 20px;
+      }
+
+      .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'courier';
+        content: "^"; /* "play" icon */
+        float: right;
+        color: #F58723;
+        font-size: 18px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+      }
+
+      .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+        color: #454444;
+      }
+
+    </style>
   </head>
   <body>
     <div class="container">
@@ -135,35 +163,6 @@
         </div>
       </div>
     </div>
-
-    <style>
-      .faqHeader {
-        font-size: 27px;
-        margin: 20px;
-      }
-
-      .panel-heading [data-toggle="collapse"]:after {
-        font-family: 'courier';
-        content: "^"; /* "play" icon */
-        float: right;
-        color: #F58723;
-        font-size: 18px;
-        line-height: 22px;
-        /* rotate "play" icon from > (right arrow) to down arrow */
-      }
-
-      .panel-heading [data-toggle="collapse"].collapsed:after {
-        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
-        -webkit-transform: rotate(180deg);
-        -moz-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
-        transform: rotate(180deg);
-        color: #454444;
-      }
-      
-    </style>
-
 
     <!-- jQuery v1.11.3 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
