@@ -133,45 +133,44 @@
             </h4>
           </div>
         </div>
+      </div>
+    </div>
 
-        <style>
-          .faqHeader {
-            font-size: 27px;
-            margin: 20px;
-          }
+    <style>
+      .faqHeader {
+        font-size: 27px;
+        margin: 20px;
+      }
 
-          .panel-heading [data-toggle="collapse"]:after {
-            font-family: 'Glyphicons Halflings';
-            content: "e072"; /* "play" icon */
-            float: right;
-            color: #F58723;
-            font-size: 18px;
-            line-height: 22px;
-            /* rotate "play" icon from > (right arrow) to down arrow */
-            -webkit-transform: rotate(-90deg);
-            -moz-transform: rotate(-90deg);
-            -ms-transform: rotate(-90deg);
-            -o-transform: rotate(-90deg);
-            transform: rotate(-90deg);
-          }
+      .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'courier';
+        content: "^"; /* "play" icon */
+        float: right;
+        color: #F58723;
+        font-size: 18px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+      }
 
-          .panel-heading [data-toggle="collapse"].collapsed:after {
-            /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
-            -webkit-transform: rotate(90deg);
-            -moz-transform: rotate(90deg);
-            -ms-transform: rotate(90deg);
-            -o-transform: rotate(90deg);
-            transform: rotate(90deg);
-            color: #454444;
-          }
-        </style>
+      .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+        color: #454444;
+      }
+      
+    </style>
 
 
-        <!-- jQuery v1.11.3 -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- jQuery v1.11.3 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-        <!-- Bootstrap v3.3.5 -->
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Bootstrap v3.3.5 -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-        </body>
-        </html>
+
+  </body>
+</html>
