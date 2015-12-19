@@ -12,372 +12,418 @@
     <title>3D4E at UCLA</title>
   </head>
 
-  <body>
+<body>
     <!-- Facebook plugin -->
     <div id="fb-root"></div>
     <!-- Facebook plugin -->
-    <script>(function (d, s, id) {
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id))
-           return;
-         js = d.createElement(s);
-         js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id))
+                return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
 
     <nav class="navbar navbar-fixed-top" id="navbar">
-      <div class="container-fluid"> 
-        <div class="navbar-header">
-          <a class="navbar-brand"></a>
-          <button class="navbar-toggle" data-toggle = "collapse" data-target="#myNavbar">
-            <span class ="icon-bar"></span>
-            <span class ="icon-bar"></span>
-            <span class ="icon-bar"></span>
-          </button>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand"></a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div id="myNavbar" style="cursor:pointer" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="page-scroll" href="#section-1">About</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="page-scroll" href="#section-2">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#section-3">Executive Board</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#section-4">Sponsors</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#section-5">FAQ</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#section-6">Calendar</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" style="cursor:pointer;">Other chapters<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://www.usc3d4e.com/" target="_blank">USC</a></li>
+                            <li><a href="http://www.3d4esdsu.com/" target="_blank">SDSU</a></li>
+                            <li><a href="#">LMU</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#contact" data-toggle="modal">
+                            <button type="button" class="btn btn-primary btn-xs">Contact</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-
-        <div id="myNavbar" style="cursor:pointer" class="collapse navbar-collapse"> 
-          <ul class="nav navbar-nav"> 
-            <li class="dropdown">
-              <a class="page-scroll" href="#section-1">About</a>
-            </li>
-            <li class="dropdown">
-              <a class="page-scroll" href="#section-2">Projects</a>
-            </li>
-            <li>
-              <a class="page-scroll" href="#section-3">Executive Board</a>
-            </li>
-            <li>
-              <a class="page-scroll" href="#section-4">Sponsors</a>
-            </li>
-            <li>
-              <a class="page-scroll" href="#section-5">Calendar</a>
-            </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle"  data-toggle="dropdown" style="cursor:pointer;">Other chapters<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.usc3d4e.com/" target="_blank">USC</a></li> 
-                <li><a href="http://www.3d4esdsu.com/" target="_blank">SDSU</a></li> 
-                <li><a href="#">LMU</a></li> 
-              </ul>
-            </li>
-          </ul> 
-
-          <ul class="nav navbar-nav navbar-right"> 
-            <li>
-              <a href = "#contact" data-toggle = "modal">
-                <button type="button" class="btn btn-primary btn-xs">Contact</button>
-              </a>
-            </li>
-          </ul> 
-        </div> 
-      </div> 
     </nav>
 
     <div>
-      <a class="page-scroll" href="#section-0" id="right-button">
-        <button type="button" class="btn btn-warning btn-custom">
-          TOP
-        </button>
-      </a>
+        <a class="page-scroll" href="#section-0" id="right-button">
+            <button type="button" class="btn btn-warning btn-custom">
+                TOP
+            </button>
+        </a>
     </div>
 
     <div id="dummy">3D4E at UCLA</div>
 
     <div class="container-fluid" id="section-0" style="padding:0;">
-      <img class="banner" src="images/3D4E/index/11715373_10204025107456213_1774242747_o.jpg" alt="cover-photo" />
+        <img class="banner" src="images/3D4E/index/11715373_10204025107456213_1774242747_o.jpg" alt="cover-photo" />
     </div>
 
     <div class="container-fluid" style="background-color: rgba(255,255,255,1)">
-      <div class="container">
-        <!--Section 1: About Us-->
-        <div id="section-1" class="container-body" >
-          <div class="row">
-            <h1>ABOUT US</h1>
-          </div>
-          <div class="row"> 
-            <div class="col-sm-8">
-              <img src="images/color_logo.jpg" class="img-rounded img-responsive img-logo" />
-              3D4E (3D For Everyone) is an intercollegiate network for enthusiasts of 3D printing and rapid-prototyping. There are currently four chapters in the network, founded by students at UCLA, University of Southern California, Loyola Marymount University, and San Diego State University.<br><br>
-              In Fall 2014, 3D4E at UCLA co-hosted a 3D printing exhibition with Young's Research Library to demonstrate the capabilities of 3D printers. The event attracted the interest of more than 200 people and greatly increased the awareness of 3D printing on campus. In Spring 2015, we secured a sponsorship agreement with 3D printer manufacturer XYZPrinting Inc. Other partners include StartUP UCLA, a hub on campus for up and coming technologies and businesses, and the Blackstone LaunchPad, where we house our 3D printers and host workshops and events.<br>
+        <div class="container">
+            <!--Section 1: About Us-->
+            <div id="section-1" class="container-body">
+                <div class="row">
+                    <h1>ABOUT US</h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <img src="images/color_logo.jpg" class="img-rounded img-responsive img-logo" />
+                        3D4E (3D For Everyone) is an intercollegiate network for enthusiasts of 3D printing and rapid-prototyping. There are currently four chapters in the network, founded by students at UCLA, University of Southern California, Loyola Marymount University, and San Diego State University.<br><br>
+                        In Fall 2014, 3D4E at UCLA co-hosted a 3D printing exhibition with Young's Research Library to demonstrate the capabilities of 3D printers. The event attracted the interest of more than 200 people and greatly increased the awareness of 3D printing on campus. In Spring 2015, we secured a sponsorship agreement with 3D printer manufacturer XYZPrinting Inc. Other partners include StartUP UCLA, a hub on campus for up and coming technologies and businesses, and the Blackstone LaunchPad, where we house our 3D printers and host workshops and events.<br>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="fb-page" data-href="https://www.facebook.com/3D4E-at-UCLA-827357580705483/timeline/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"></div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-4">
-              <div class="fb-page" data-href="https://www.facebook.com/3D4E-at-UCLA-827357580705483/timeline/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"></div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
 
     <div class="container">
-      <!-- Slide show of pictures -->
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="slider autoplay">
-            <div><div class="image"><img src="images/gallery/2015-2016/Fusion_workshop/FW2.JPG" class="img-rounded img-responsive img-logo"/></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/Fusion_workshop/FW5.JPG" class="img-rounded img-responsive img-logo"/></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/Fusion_workshop/FW6.JPG" class="img-rounded img-responsive img-logo"/></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/Fusion_workshop/FW7.JPG" class="img-rounded img-responsive img-logo"/></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/Fusion_workshop/FW8.JPG" class="img-rounded img-responsive img-logo"/></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/Fusion_workshop/FW9.JPG" class="img-rounded img-responsive img-logo"/></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/EAF/EAF1.JPG" class="img-rounded img-responsive img-logo"/></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/EAF/EAF2.JPG" class="img-rounded img-responsive img-logo"/></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/EAF/EAF3.JPG" class="img-rounded img-responsive img-logo"/></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/EAF/EAF4.JPG" class="img-rounded img-responsive img-logo"/></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/EAF/EAF5.JPG" class="img-rounded img-responsive img-logo"/></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/EAF/EAF6.JPG" class="img-rounded img-responsive img-logo"/></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/club_meetings/CM1.JPG" class="img-rounded img-responsive img-logo" /></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/club_meetings/CM2.JPG" class="img-rounded img-responsive img-logo" /></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/club_meetings/CM3.JPG" class="img-rounded img-responsive img-logo" /></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/3D_showcase/showcase1.JPG" class="img-rounded img-responsive img-logo" /></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/3D_showcase/showcase2.JPG" class="img-rounded img-responsive img-logo" /></div></div>
-            <div><div class="image"><img src="images/gallery/2015-2016/3D_showcase/showcase3.JPG" class="img-rounded img-responsive img-logo" /></div></div>
-          </div>
+        <!-- Slide show of pictures -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="slider autoplay">
+                    <div><div class="image"><img src="images/gallery/2015-2016/Fusion_workshop/FW2.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/Fusion_workshop/FW5.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/Fusion_workshop/FW6.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/Fusion_workshop/FW7.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/Fusion_workshop/FW8.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/Fusion_workshop/FW9.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/EAF/EAF1.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/EAF/EAF2.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/EAF/EAF3.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/EAF/EAF4.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/EAF/EAF5.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/EAF/EAF6.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/club_meetings/CM1.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/club_meetings/CM2.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/club_meetings/CM3.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/3D_showcase/showcase1.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/3D_showcase/showcase2.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                    <div><div class="image"><img src="images/gallery/2015-2016/3D_showcase/showcase3.JPG" class="img-rounded img-responsive img-logo" /></div></div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <div class="container-fluid" style="background-color: #66e0ff; color:#444444">
-      <div class="container">
-        <!--Section 2: Projects-->
-        <div class="container-body" id="section-2">
-          <div class="row">
-            <h1>PROJECTS</h1>
-          </div>
-          <div class="row">
-            <div class="col-sm-4"><h3>3D4E Projects</h3>Every year, 3D4E works on a series of club projects.  Most recently, 3D4E at UCLA designed and 3D Printed a robot to compete against the other 3D4E chapters.  In Fall 2015, 3D4E will launch new projects, including designing 3D Printed Prosthetics.  <a class="page-scroll" href="#section-5">Attend</a> one of our meetings to find out more!</div>
-            <div class="col-sm-4"><h3>Club Partnerships</h3>In addition to our own club projects, we have worked with many different organizations on campus.  We have manufactured lightweight mounts for the <a href="http://uclaracing.org/supermileage/" target="_blank">UCLA Supermileage Vehicle Team</a>, parts for <a href="http://www.ieee.ucla.edu/" target="_blank">UCLA IEEE Natcar</a> competition vehicles, and a model cube satellite for <a href="http://elfin.igpp.ucla.edu/" target="_blank"> UCLA Elfin.</a>  Please <a href="#contact" data-toggle = "modal">contact us</a> to learn how we can work together.</div>
+        <div class="container">
+            <!--Section 2: Projects-->
+            <div class="container-body" id="section-2">
+                <div class="row">
+                    <h1>PROJECTS</h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4"><h3>3D4E Projects</h3>Every year, 3D4E works on a series of club projects.  Most recently, 3D4E at UCLA designed and 3D Printed a robot to compete against the other 3D4E chapters.  In Fall 2015, 3D4E will launch new projects, including designing 3D Printed Prosthetics.  <a class="page-scroll" href="#section-5">Attend</a> one of our meetings to find out more!</div>
+                    <div class="col-sm-4"><h3>Club Partnerships</h3>In addition to our own club projects, we have worked with many different organizations on campus.  We have manufactured lightweight mounts for the <a href="http://uclaracing.org/supermileage/" target="_blank">UCLA Supermileage Vehicle Team</a>, parts for <a href="http://www.ieee.ucla.edu/" target="_blank">UCLA IEEE Natcar</a> competition vehicles, and a model cube satellite for <a href="http://elfin.igpp.ucla.edu/" target="_blank"> UCLA Elfin.</a>  Please <a href="#contact" data-toggle="modal">contact us</a> to learn how we can work together.</div>
 
-            <div class="col-sm-4"><h3>Independent Projects</h3>3D4E resources are also available for your independent projects.  We can help you design and 3D Print your ideas.  <a href="#contact" data-toggle = "modal">Contact us!</a>  We look forward to working with you!</div>
-          </div>
-          <br>
-          <!--Section 2.1: Project Grid-->
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="gridster">
-                <ul>
-                  <li data-row="1" data-col="1" data-sizex="3" data-sizey="1">
-                    <h4>Remote Vehicle</h4>
-                    <svg id="fillgaugecomplete1" data-fill="100" width="60px" height="60px"></svg>
-                    <br>
-                    In 2014, we 3D printed a remote control vehicle (everything except mechanical fasteners and springs were 3D printed) by connecting high-torque stepper motor with an Arduino board communicating through Bluetooth with an XBee controller. 
-                    <br>
-                    <br>
-                    <img class="img-responsive img-thumbnail img-project" src="images/3D4E/competition-usc/IMG_5.png" />
-                  </li>
-                  <li data-row="1" data-col="2" data-sizex="3" data-sizey="1">
-                    <h4>RepRap 3D Printer</h4>
-                    <svg id="fillgauge1" data-fill="15" width="60px" height="60px"></svg>
-                    <br>
-                    The RepRap project asks a very simple question: "Can you print another 3D printer using a 3D printer?" The answer is "Yes!". This year, 3D4E at UCLA will be expanding our club resources by building a new 3D printer using open source software.
-                    <br>
-                    <br>
-                    <img class="img-responsive img-thumbnail img-project" src="images/3D4E/index/RepRap.jpg" />
-                  </li>
-                  <li data-row="1" data-col="3" data-sizex="3" data-sizey="1">
-                    <h4>Klann's Mechanism Spider</h4>
-                    <svg id="fillgaugecomplete2" data-fill="100" width="60px" height="60px"></svg>
-                    <br>
-                    The Klann's linkage mechanism creates a bipedal-like motion from circular motions. The basic concept is easy to understand, but difficult to 3D print and implement.
-                    <br>
-                    <br>
-                    <img class="img-responsive img-thumbnail img-project" src="images/no-image-available.png" />
-                  </li>
+                    <div class="col-sm-4"><h3>Independent Projects</h3>3D4E resources are also available for your independent projects.  We can help you design and 3D Print your ideas.  <a href="#contact" data-toggle="modal">Contact us!</a>  We look forward to working with you!</div>
+                </div>
+                <br>
+                <!--Section 2.1: Project Grid-->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="gridster">
+                            <ul>
+                                <li data-row="1" data-col="1" data-sizex="3" data-sizey="1">
+                                    <h4>Remote Vehicle</h4>
+                                    <svg id="fillgaugecomplete1" data-fill="100" width="60px" height="60px"></svg>
+                                    <br>
+                                    In 2014, we 3D printed a remote control vehicle (everything except mechanical fasteners and springs were 3D printed) by connecting high-torque stepper motor with an Arduino board communicating through Bluetooth with an XBee controller.
+                                    <br>
+                                    <br>
+                                    <img class="img-responsive img-thumbnail img-project" src="images/3D4E/competition-usc/IMG_5.png" />
+                                </li>
+                                <li data-row="1" data-col="2" data-sizex="3" data-sizey="1">
+                                    <h4>RepRap 3D Printer</h4>
+                                    <svg id="fillgauge1" data-fill="15" width="60px" height="60px"></svg>
+                                    <br>
+                                    The RepRap project asks a very simple question: "Can you print another 3D printer using a 3D printer?" The answer is "Yes!". This year, 3D4E at UCLA will be expanding our club resources by building a new 3D printer using open source software.
+                                    <br>
+                                    <br>
+                                    <img class="img-responsive img-thumbnail img-project" src="images/3D4E/index/RepRap.jpg" />
+                                </li>
+                                <li data-row="1" data-col="3" data-sizex="3" data-sizey="1">
+                                    <h4>Klann's Mechanism Spider</h4>
+                                    <svg id="fillgaugecomplete2" data-fill="100" width="60px" height="60px"></svg>
+                                    <br>
+                                    The Klann's linkage mechanism creates a bipedal-like motion from circular motions. The basic concept is easy to understand, but difficult to 3D print and implement.
+                                    <br>
+                                    <br>
+                                    <img class="img-responsive img-thumbnail img-project" src="images/no-image-available.png" />
+                                </li>
 
-                  <li data-row="2" data-col="1" data-sizex="3" data-sizey="1">
-                    <h4>Open Hand Project</h4>
-                    <svg id="fillgauge2" data-fill="25" width="60px" height="60px"></svg>
-                    <br>
-                    The open hand project is a partnership with UCLA Women's Basketball Team to modify Enabling the Future's prosthetic hand model to be able to play sports.
-                    <br>
-                    <br>
-                    <img class="img-responsive img-thumbnail img-project" src="images/no-image-available.png" />
-                  </li>
-                  <li data-row="2" data-col="2" data-sizex="3" data-sizey="1">
-                    <h4>SPY Volunteer Outreach</h4>
-                    <svg id="fillgauge3" data-fill="15" width="60px" height="60px"></svg>
-                    <br>
-                    3D4E is about sharing our knowledge and enthusiasm with everyone. This year, we are partnering with SPY (Safe Place for Youth) to help mentor young children about becoming a tinkering engineer.
-                    <br>
-                    <br>
-                    <img class="img-responsive img-thumbnail img-project" src="images/no-image-available.png" />
-                  </li>
-                  <li data-row="2" data-col="3" data-sizex="3" data-sizey="1">
-                    <h4>Mouse Controller</h4>
-                    <svg id="fillgauge4" data-fill="0" width="60px" height="60px"></svg>
-                    <br>
-                    This year, 3D4E at UCLA will attempt to design and 3D print a working computer mouse. Not only will the mouse be fully functional, but each person can customize the size and shape to find the most ergonomic fit.
-                    <br>
-                    <br>
-                    <img class="img-responsive img-thumbnail img-project" src="images/no-image-available.png" />
-                  </li>
-                  <li data-row="3" data-col="1" data-sizex="3" data-sizey="1">Coming Soon</li>
-                  <li data-row="3" data-col="2" data-sizex="3" data-sizey="1">Coming Soon</li>
-                </ul>
-              </div>
+                                <li data-row="2" data-col="1" data-sizex="3" data-sizey="1">
+                                    <h4>Open Hand Project</h4>
+                                    <svg id="fillgauge2" data-fill="25" width="60px" height="60px"></svg>
+                                    <br>
+                                    The open hand project is a partnership with UCLA Women's Basketball Team to modify Enabling the Future's prosthetic hand model to be able to play sports.
+                                    <br>
+                                    <br>
+                                    <img class="img-responsive img-thumbnail img-project" src="images/no-image-available.png" />
+                                </li>
+                                <li data-row="2" data-col="2" data-sizex="3" data-sizey="1">
+                                    <h4>SPY Volunteer Outreach</h4>
+                                    <svg id="fillgauge3" data-fill="15" width="60px" height="60px"></svg>
+                                    <br>
+                                    3D4E is about sharing our knowledge and enthusiasm with everyone. This year, we are partnering with SPY (Safe Place for Youth) to help mentor young children about becoming a tinkering engineer.
+                                    <br>
+                                    <br>
+                                    <img class="img-responsive img-thumbnail img-project" src="images/no-image-available.png" />
+                                </li>
+                                <li data-row="2" data-col="3" data-sizex="3" data-sizey="1">
+                                    <h4>Mouse Controller</h4>
+                                    <svg id="fillgauge4" data-fill="0" width="60px" height="60px"></svg>
+                                    <br>
+                                    This year, 3D4E at UCLA will attempt to design and 3D print a working computer mouse. Not only will the mouse be fully functional, but each person can customize the size and shape to find the most ergonomic fit.
+                                    <br>
+                                    <br>
+                                    <img class="img-responsive img-thumbnail img-project" src="images/no-image-available.png" />
+                                </li>
+                                <li data-row="3" data-col="1" data-sizex="3" data-sizey="1">Coming Soon</li>
+                                <li data-row="3" data-col="2" data-sizex="3" data-sizey="1">Coming Soon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    To sign up for the projects we are hosting this year, click <a href="https://docs.google.com/forms/d/1duXuNgBoaPYL8mYdfSHatLWaX9Rfsmp-X9qifxuJ-iw/viewform?usp=send_form" target="_blank">here</a>.
+                </div>
+                <div class="row">
+                    Questions? Check out our FAQ section <a href="http://3d4eatucla.github.io/FAQ" target="_blank">here</a>.
+                </div>
+
             </div>
-          </div>
-          <div class="row">
-            To sign up for the projects we are hosting this year, click <a href="https://docs.google.com/forms/d/1duXuNgBoaPYL8mYdfSHatLWaX9Rfsmp-X9qifxuJ-iw/viewform?usp=send_form" target="_blank">here</a>.
-          </div>
-          <div class="row">
-            Questions? Check out our FAQ section <a href="http://3d4eatucla.github.io/FAQ" target="_blank">here</a>.
-          </div>
-
         </div>
-      </div>
     </div>
 
 
     <div class="container">
-      <!--Section 3: Executive Board-->            
-      <div class="container-body" id="section-3">
-        <div class="row">
-          <h1>EXECUTIVE BOARD</h1>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="img-profile-container" style="background-image: url('images/3D4E/eboard/HoMing.jpg')">
-              <img src="images/3D4E/eboard/HoMing.jpg" class="img-responsive img-profile" alt="profile picture"/>
+        <!--Section 3: Executive Board-->
+        <div class="container-body" id="section-3">
+            <div class="row">
+                <h1>EXECUTIVE BOARD</h1>
             </div>
-            <h3>HO MING YIM</h3>
-            <h4>President</h4>
-            <h5>Chemical Engineering 16'</h5>
-            As president of 3D4E at UCLA, Ho Ming works closely with the executive board and looks over all members in the club. Majoring in Chemical Engineering and minoring in Geospatial Information System & Technology, Ho Ming has a very broad set of skills from computer aided design to website design, geospatial analysis to numerical analysis, and process flow modeling to computer modeling.
-          </div>
-          <div class="col-sm-6">
-            <img src="images/3D4E/eboard/merrick-250kb.jpg" class="img-responsive img-profile" alt="profile picture"/>
-            <h3>MERRICK CAMPBELL</h3>
-            <h4>Vice President</h4>
-            <h5>Mechanical Engineering 16'</h5>
-            Merrick Campbell is currently a senior undergraduate mechanical engineering student at UCLA.  He co-founded 3D4E at UCLA to help other students explore the boundary between engineering and multi-media through 3D Printing.  Outside of lab and studies, he enjoys reading, cooking, and constructing open-source 3D Printers. As an Eagle Scout, he mentors current scouts through the Bruin Scout program at UCLA.
-          </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="img-profile-container" style="background-image: url('images/3D4E/eboard/HoMing.jpg')">
+                        <img src="images/3D4E/eboard/HoMing.jpg" class="img-responsive img-profile" alt="profile picture" />
+                    </div>
+                    <h3>HO MING YIM</h3>
+                    <h4>President</h4>
+                    <h5>Chemical Engineering 16'</h5>
+                    As president of 3D4E at UCLA, Ho Ming works closely with the executive board and looks over all members in the club. Majoring in Chemical Engineering and minoring in Geospatial Information System & Technology, Ho Ming has a very broad set of skills from computer aided design to website design, geospatial analysis to numerical analysis, and process flow modeling to computer modeling.
+                </div>
+                <div class="col-sm-6">
+                    <img src="images/3D4E/eboard/merrick-250kb.jpg" class="img-responsive img-profile" alt="profile picture" />
+                    <h3>MERRICK CAMPBELL</h3>
+                    <h4>Vice President</h4>
+                    <h5>Mechanical Engineering 16'</h5>
+                    Merrick Campbell is currently a senior undergraduate mechanical engineering student at UCLA.  He co-founded 3D4E at UCLA to help other students explore the boundary between engineering and multi-media through 3D Printing.  Outside of lab and studies, he enjoys reading, cooking, and constructing open-source 3D Printers. As an Eagle Scout, he mentors current scouts through the Bruin Scout program at UCLA.
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="images/3D4E/eboard/rebecca.jpg" class="img-responsive img-profile" alt="profile picture" />
+                    <h3>REBECCA DESHETLER</h3>
+                    <h4>Secretary</h4>
+                    <h5>Chemical Engineering 18'</h5>
+                    Rebecca DeShetler, a second year engineering student at UCLA, became involved in 3D4E out of a life-long interest in design. In addition to loving engineering classes at UCLA, Rebecca has worked on a political campaign, at a non-profit, and at a newspaper. Outside of her studies, Rebecca is a guide for UCLA Outdoor Adventures, and loves backpacking, teaching, and reading.
+                </div>
+                <div class="col-sm-6">
+                    <img src="images/3D4E/eboard/Brooke.jpg" class="img-responsive img-profile" alt="profile picture" />
+                    <h3>BROOKE ZAMPELL</h3>
+                    <h4>Public Relations Chair</h4>
+                    <h5>Bioengineering 18'</h5>
+                    Brooke is a second year bioengineering student at UCLA who loves to explore topics both within and outside her major. She joined 3D4E to gain hands-on experience in engineering project work. Most recently, she has worked in a UC San Diego bioengineering research lab on single cell genome sequencing. Her other interests include horseback riding, reading, and cheering the Bruins on in athletics.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="images/3D4E/eboard/Gary.jpg" class="img-responsive img-profile" alt="profile picture" />
+                    <h3>GARY ZHANG</h3>
+                    <h4>Technical Director</h4>
+                    <h5>Electrical Engineering 16'</h5>
+                    Gary is a fourth year electrical engineering student at UCLA.  He generously contributes his time and knowledge to our successful projects.
+                </div>
+                <div class="col-sm-6">
+                    <img src="images/3D4E/eboard/Baixiao.jpg" class="img-responsive img-profile" alt="profile picture" />
+                    <h3>BAIXIAO HUANG</h3>
+                    <h4>Technical Director</h4>
+                    <h5>Computer Science Engineering 17'</h5>
+                    Baixiao is third year computer engineering student at UCLA. He specializes in UAV (unmanned aerial vehicle) research in Mechanical Engineering Department in UCLA. He loves watching movie and traveling in free time and making friends at various occasions. He is nice to everyone and never hesitates to help someone in need, whether in academics or not.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="images/3D4E/eboard/Tiffany.jpg" class="img-responsive img-profile" alt="profile picture" />
+                    <h3>TIFFANY WU</h3>
+                    <h4>Webmaster</h4>
+                    <h5>Chemical Engineering 17'</h5>
+                    Tiffany is a third year chemical and biomolecular engineering student at UCLA. She is always looking for opportunities to explore every industry.  She has interned both at startup companies and university laboratories.  Outside of engineering, she also likes reading, sketching, learning martial arts, and reading manga.
+                </div>
+            </div>
         </div>
-        <br>
-        <div class="row">
-          <div class="col-sm-6">
-            <img src="images/3D4E/eboard/rebecca.jpg" class="img-responsive img-profile" alt="profile picture"/>
-            <h3>REBECCA DESHETLER</h3>
-            <h4>Secretary</h4>
-            <h5>Chemical Engineering 18'</h5>
-            Rebecca DeShetler, a second year engineering student at UCLA, became involved in 3D4E out of a life-long interest in design. In addition to loving engineering classes at UCLA, Rebecca has worked on a political campaign, at a non-profit, and at a newspaper. Outside of her studies, Rebecca is a guide for UCLA Outdoor Adventures, and loves backpacking, teaching, and reading. 
-          </div>
-          <div class="col-sm-6">
-            <img src="images/3D4E/eboard/Brooke.jpg" class="img-responsive img-profile" alt="profile picture"/>
-            <h3>BROOKE ZAMPELL</h3>
-            <h4>Public Relations Chair</h4>
-            <h5>Bioengineering 18'</h5>
-            Brooke is a second year bioengineering student at UCLA who loves to explore topics both within and outside her major. She joined 3D4E to gain hands-on experience in engineering project work. Most recently, she has worked in a UC San Diego bioengineering research lab on single cell genome sequencing. Her other interests include horseback riding, reading, and cheering the Bruins on in athletics.
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <img src="images/3D4E/eboard/Gary.jpg" class="img-responsive img-profile" alt="profile picture"/>
-            <h3>GARY ZHANG</h3>
-            <h4>Technical Director</h4>
-            <h5>Electrical Engineering 16'</h5>
-            Gary is a fourth year electrical engineering student at UCLA.  He generously contributes his time and knowledge to our successful projects.
-          </div>
-          <div class="col-sm-6">
-            <img src="images/3D4E/eboard/Baixiao.jpg" class="img-responsive img-profile" alt="profile picture"/>
-            <h3>BAIXIAO HUANG</h3>
-            <h4>Technical Director</h4>
-            <h5>Computer Science Engineering 17'</h5>
-            Baixiao is third year computer engineering student at UCLA. He specializes in UAV (unmanned aerial vehicle) research in Mechanical Engineering Department in UCLA. He loves watching movie and traveling in free time and making friends at various occasions. He is nice to everyone and never hesitates to help someone in need, whether in academics or not.
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <img src="images/3D4E/eboard/Tiffany.jpg" class="img-responsive img-profile" alt="profile picture"/>
-            <h3>TIFFANY WU</h3>
-            <h4>Webmaster</h4>
-            <h5>Chemical Engineering 17'</h5>
-            Tiffany is a third year chemical and biomolecular engineering student at UCLA. She is always looking for opportunities to explore every industry.  She has interned both at startup companies and university laboratories.  Outside of engineering, she also likes reading, sketching, learning martial arts, and reading manga.
-          </div>
-        </div>
-      </div>
     </div>
 
 
     <div class="container">
-      <!--Section 4: Sponsors-->
-      <div class="container-body" id="section-4">
-        <div class="row-title">
-          <h1>SPONSORS</h1>
-        </div>
-        <div class="row">
-          <!--Sponsor logos should be only 75px high-->
-          <div class="col-sm-6">
-            <center><a href="http://www.autodesk.com/" target="_blank"><img src="images/sponsors/resized/autodesk75.png"/></a></center>
-          </div>
-          <div class="col-sm-6">
-            <center><a href="http://http://www.zeus.aiorobotics.com/" target="_blank"><img src="images/sponsors/resized/aio75.png"/></a></center>
-          </div>
-          <div class="row-title">
-            <div class="col-sm-6">
-              <center><a href="http://ucla.thelaunchpad.org/" target ="_blank"><img src="images/sponsors/resized/uclablackstone75.png"/></a></center>
+        <!--Section 4: Sponsors-->
+        <div class="container-body" id="section-4">
+            <div class="row-title">
+                <h1>SPONSORS</h1>
             </div>
-            <div class="col-sm-6">
-              <center><a href="http://us.xyzprinting.com/us_en/Home" target ="_blank"><img src="images/sponsors/resized/xyzlogocolor75.png"/></a></center>
+            <div class="row">
+                <!--Sponsor logos should be only 75px high-->
+                <div class="col-sm-6">
+                    <center><a href="http://www.autodesk.com/" target="_blank"><img src="images/sponsors/resized/autodesk75.png" /></a></center>
+                </div>
+                <div class="col-sm-6">
+                    <center><a href="http://http://www.zeus.aiorobotics.com/" target="_blank"><img src="images/sponsors/resized/aio75.png" /></a></center>
+                </div>
+                <div class="row-title">
+                    <div class="col-sm-6">
+                        <center><a href="http://ucla.thelaunchpad.org/" target="_blank"><img src="images/sponsors/resized/uclablackstone75.png" /></a></center>
+                    </div>
+                    <div class="col-sm-6">
+                        <center><a href="http://us.xyzprinting.com/us_en/Home" target="_blank"><img src="images/sponsors/resized/xyzlogocolor75.png" /></a></center>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
 
 
     <div class="container">
-      <!--Section 5: Calendar-->                
-      <div class="container-body" id="section-5">
-        <div class="row">
-          <h1>CALENDAR</h1>
+        <!--Section 5: FAQ-->
+        <div class="container-body" id="section-5">
+            <div class="row">
+                <h1>FAQ</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p><b>Q: Do you need any prior experience with anything to join the club?</b></p>
+                    <p>
+                        <b>A: </b>No, you are not required to know anything. We will give you guidance on what to learn and help you with any question.
+                        We also host various kinds of workshops throughout the school year so you can hop in any time even if you're not a member of
+                        the club.
+                    </p>
+                    <br />
+                    <p><b>Q: What resources do I have access to if I don't pay the member fee?</b></p>
+                    <p>
+                        <b>A: </b>You are welcomed to come to our workshops throughout the year and join our projects. You can print out project related
+                        things with our printer.
+                    </p>
+                    <br />
+                    <p><b>Q: What extra resources do I have access to as a member? (If I pay the annual member fee of $15)</b></p>
+                    <p>
+                        <b>A: </b>You get unlimited prints to one of our printers. You also get a member T-shirt designed by our wonderfully artistic Public
+                        relations chair Brooke.
+                    </p>
+                    <br />
+                    <p><b>Q: Can I participate in more than one project?</b></p>
+                    <p>
+                        <b>A: </b>You are welcomed to join both projects though we highly recommended you plan your time wisely before doing so.
+                    </p>
+                    <br />
+                    <p><b>Q: What if I'm interested in 3D printing but not in any of the club projects?</b></p>
+                    <p>
+                        <b>A: </b>You are certainly still welcomed to come to our meetings to know the latest announcements and project developments. Otherwise
+                        you can come to our workshops and events. We can also still answer any question you have about 3D printing or our club. Or you can pay
+                        a member fee and use our printers to study 3D printing.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <center><iframe id="calendar" src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=m7ik414l81tcmi7rj55cd9tid4%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe></center>
-          </div>  
-        </div>
-        <div class="row">
-          To sign up for access for our printer, click <a href="http://goo.gl/forms/8FHih9SshA" target="_blank">here</a>.
-        </div>
-      </div>
     </div>
 
-    <!--Bottom Nav --> 
+    <div class="container">
+        <!--Section 6: Calendar-->
+        <div class="container-body" id="section-6">
+            <div class="row">
+                <h1>CALENDAR</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <center><iframe id="calendar" src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=m7ik414l81tcmi7rj55cd9tid4%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe></center>
+                </div>
+            </div>
+            <div class="row">
+                To sign up for access for our printer, click <a href="http://goo.gl/forms/8FHih9SshA" target="_blank">here</a>.
+            </div>
+        </div>
+    </div>
+
+    <!--Bottom Nav -->
     <nav class="navbar navbar-default navbar-fixed-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-offset-2"></div>
-          <div id="catchphrase" class="col-lg-8 text-center" style="text-align:right">Founded in 2012. 3D4E at UCLA. Design. Tinker. Print.</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-offset-2"></div>
+                <div id="catchphrase" class="col-lg-8 text-center" style="text-align:right">Founded in 2012. 3D4E at UCLA. Design. Tinker. Print.</div>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <!--contact modal --> 
+    <!--contact modal -->
     <div class="modal fade" id="contact">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4>Contact 3D4E at UCLA</h4>
-          </div>
-          <div class="modal-body">
-            <center>
-              <iframe src="https://docs.google.com/forms/d/1T8z-nN3pxjhmV79zC3DLI2rIiR5tXN-kicC7SjmBvbE/viewform?embedded=true" height="500">Loading...</iframe>
-            </center>
-          </div>
-          <div class="modal-footer">
-            <a class="btn btn-danger" data-dismiss="modal">Close</a>
-          </div>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Contact 3D4E at UCLA</h4>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <iframe src="https://docs.google.com/forms/d/1T8z-nN3pxjhmV79zC3DLI2rIiR5tXN-kicC7SjmBvbE/viewform?embedded=true" height="500">Loading...</iframe>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-danger" data-dismiss="modal">Close</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- Javascripts Core
-  ==============================
-    <!-- placed at end so pages will load faster -->
-
+    ==============================
+      <!-- placed at end so pages will load faster -->
     <!-- jQuery v1.11.3 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -405,7 +451,8 @@
     <script type="text/javascript" src="js/slick/scripts.js"></script>
 
     <script>
-       initialize();
+        initialize();
     </script>
-  </body>
+</body>
+
 </html>
